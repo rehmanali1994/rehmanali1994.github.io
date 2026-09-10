@@ -35,7 +35,7 @@ My research focuses on developing wave-physics-based computational methods for q
 
 My current work develops computational approaches for both **transmission and pulse-echo ultrasound**, including frequency-domain and time-domain FWI, wave-equation migration velocity analysis, Fourier-domain beamforming, and model-based correction of acoustic aberrations.  A central goal of my research is to develop practical computational methods that can translate advanced wave physics into improved medical imaging systems.
 
-I am currently supported by the [**NIH K99/R00 Pathway to Independence Award from the National Institute of Biomedical Imaging and Bioengineering (NIBIB)**](https://reporter.nih.gov/project-details/11110522), through which I am establishing an independent research program in computational ultrasound imaging.
+I am currently supported by the [**NIH K99/R00 Pathway to Independence Award**](https://reporter.nih.gov/project-details/11110522) from the National Institute of Biomedical Imaging and Bioengineering (NIBIB), through which I am establishing an independent research program in computational ultrasound imaging.
 
 ### Research interests
 
