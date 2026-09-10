@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: Inverse Criminal
 
 profile:
   align: right
@@ -36,7 +36,7 @@ My research focuses on developing wave-physics-based computational methods for t
 * wave-equation migration velocity analysis (WEMVA) for pulse-echo sound speed estimation and aberration correction
 * fast but accurate 3D FWI models for whole-breast imaging and breast cancer screening
 
-### Research interests
+### Research Interests and Open-Source Projects
 
 A central goal of my research is to develop practical computational imaging methods that can translate advanced wave physics into medical imaging systems that address clinical needs.  As an important steppingstone towards those long-term clinical goals, I develop and share open-source software tools and datasets to facilitate reproducible research in quantitative ultrasound imaging and inverse problems.  My projects span:
 * Sound Speed Estimation and Aberration Correction for Pulse-Echo Ultrasound
