@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: A Smooth Inverse Criminal ... Allegedly 😎
+subtitle: Smooth Inverse Criminal ... Allegedly 😎
 
 profile:
   align: right
@@ -43,4 +43,4 @@ A central goal of my research is to develop practical computational imaging meth
 * Ultrasound Tomography (UST) Based on Ultrasound Transmission Through Tissue
 * Full Wave Physics and Numerical Simulation Techniques
 
-For publications, software, and additional research information, please explore the sections of this website or visit my [Google Scholar](https://scholar.google.com/citations?user=1zeET6sAAAAJ&hl) profile.
+For publications, software, and additional research information, please explore the sections of this website, my [GitHub](https://github.com/rehmanali1994) repositories, or visit my [Google Scholar](https://scholar.google.com/citations?user=1zeET6sAAAAJ&hl) profile.
