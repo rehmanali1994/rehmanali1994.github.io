@@ -71,7 +71,7 @@
 }
 
 @article{Ali2025_3DFWI,
-  title={3D frequency-domain full waveform inversion for whole-breast imaging with a multi-row ring array},
+  title={3D Frequency-Domain Full Waveform Inversion for Whole-Breast Imaging With a Multi-Row Ring Array},
   author={Ali, Rehman and Jin, Gaofei and Singh, Melanie and Mitcham, Trevor and Duric, Nebojsa},
   journal={IEEE open journal of ultrasonics, ferroelectrics, and frequency control},
   volume={5},
@@ -104,5 +104,58 @@
   abstract={Ultrasound tomography fundamentally relies on low-frequency data to avoid cycle skipping in full-waveform inversion (FWI). In the absence of sufficiently low-frequency data, we can extrapolate low-frequency content from existing high-frequency signals by using the same approach used in frequency-difference beamforming. This low-frequency content is then used to kickstart FWI and avoid cycle skipping at higher frequencies. In simulations, the structural similarity index measure and peak signal-to-noise ratio of the reconstructed image improve by 0.28 and 8.6 dB, respectively, as a result of frequency differencing. Experiments show that internal structures can be seen with greater clarity because of frequency differencing.},
   pdf={Ali2025FrequencyDifferencing.pdf},
   code={https://github.com/rehmanali1994/FrequencyDifferencing}
+}
+
+@article{Bustamante2024Hyperthermia,
+  title={Generating and monitoring mild hyperthermia using a ring array ultrasound transducer},
+  author={Bustamante, David and Yan, Yan and Mitcham, Trevor and Ali, Rehman and Marples, Brian and Gergelis, Kimberly R and Littrup, Peter and Duric, Nebojsa and Mehrmohammadi, Mohammad},
+  journal={International Journal of Hyperthermia},
+  volume={41},
+  number={1},
+  pages={2376681},
+  year={2024},
+  doi={10.1080/02656736.2024.2376681},
+  publisher={Taylor \& Francis},
+  url={https://www.tandfonline.com/doi/full/10.1080/02656736.2024.2376681},
+  google_scholar_id={hFOr9nPyWt4C},
+  bibtex_show = {true},
+  dimensions = {true},
+  pdf={Bustamante2024Hyperthermia.pdf},
+}
+
+@article{Ali2024_BlockLU_2DFWI,
+  title={2-D slicewise waveform inversion of sound speed and acoustic attenuation for ring array ultrasound tomography based on a block LU solver},
+  author={Ali, Rehman and Mitcham, Trevor M and Brevett, Thurston and Agudo, {\`O}scar Calder{\'o}n and Martinez, Cristina Dur{\'a}n and Li, Cuiping and Doyley, Marvin M and Duric, Nebojsa},
+  journal={IEEE transactions on medical imaging},
+  volume={43},
+  number={8},
+  pages={2988--3000},
+  year={2024},
+  doi={10.1109/TMI.2024.3383816},
+  publisher={IEEE},
+  url={https://ieeexplore.ieee.org/document/10486959},
+  google_scholar_id={L8Ckcad2t8MC},
+  bibtex_show = {true},
+  dimensions = {true},
+  abstract={Ultrasound tomography is an emerging imaging modality that uses the transmission of ultrasound through tissue to reconstruct images of its mechanical properties. Initially, ray-based methods were used to reconstruct these images, but their inability to account for diffraction often resulted in poor resolution. Waveform inversion overcame this limitation, providing high-resolution images of the tissue. Most clinical implementations, often directed at breast cancer imaging, currently rely on a frequency-domain waveform inversion to reduce computation time. For ring arrays, ray tomography was long considered a necessary step prior to waveform inversion in order to avoid cycle skipping. However, in this paper, we demonstrate that frequency-domain waveform inversion can reliably reconstruct high-resolution images of sound speed and attenuation without relying on ray tomography to provide an initial model. We provide a detailed description of our frequency-domain waveform inversion algorithm with open-source code and data that we make publicly available.},
+  pdf={Ali2024_BlockLU_2DFWI.pdf},
+  code={https://github.com/rehmanali1994/WaveformInversionUST}
+}
+
+@article{Ali2023OptimalApodization,
+  title={Optimal transmit apodization for the maximization of lag-one coherence with applications to aberration delay estimation},
+  author={Ali, Rehman and Duric, Nebojsa and Dahl, Jeremy J},
+  journal={Ultrasonics},
+  volume={132},
+  pages={107010},
+  year={2023},
+  doi={10.1016/j.ultras.2023.107010},
+  publisher={Elsevier}
+  url={https://www.sciencedirect.com/science/article/abs/pii/S0041624X23000860},
+  google_scholar_id={L8Ckcad2t8MC},
+  bibtex_show = {true},
+  dimensions = {true},
+  abstract={Phase aberration is one of the major sources of image degradation in medical ultrasound imaging. One of the earliest and simplest techniques to correct for phase aberration involves nearest-neighbor cross correlation to estimate delays between neighboring receive channels and the compensation of aberration delays in a delay-and-sum beamformer. The main challenge is that neighboring receive channels may not have sufficient signal correlation to accurately estimate the aberration delays. Although algorithms such as the translating transmit aperture or the common midpoint gather are designed to perfectly maximize signal correlations between received signals, these algorithms require the use of different transmit apertures for each received signal. Instead, this work proposes the use of a single globally-applicable transmit apodization function that optimizes the lag-one coherence based on the van Cittert–Zernike theorem. For the application to phase aberration correction, it is shown across 20 different zero-mean Gaussian-random aberrators that the proposed optimal apodization function reduces the estimation error in the aberration delay profile from 22.85% to 15.72%.},
+  pdf={Ali2023OptimalApodization.pdf},
 }
 
