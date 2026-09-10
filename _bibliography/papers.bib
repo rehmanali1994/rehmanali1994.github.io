@@ -378,6 +378,22 @@
   code={https://github.com/rehmanali1994/FullWaveformInversionUSCT}
 }
 
-
+@inproceedings{Ali2019OpenSourceBentRayTomography,
+  title={Open-source Gauss-Newton-based methods for refraction-corrected ultrasound computed tomography},
+  author={Ali, Rehman and Hsieh, Scott and Dahl, Jeremy},
+  booktitle={Medical Imaging 2019: Ultrasonic Imaging and Tomography},
+  volume={10955},
+  pages={39--52},
+  year={2019},
+  organization={SPIE},
+  doi={10.1117/12.2511319},
+  url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10955/2511319/Open-source-Gauss-Newton-based-methods-for-refraction-corrected-ultrasound/10.1117/12.2511319.full},
+  google_scholar_id={_FxGoFyzp5QC},
+  bibtex_show = {true},
+  dimensions = {true},
+  abstract={This work presents refraction-corrected sound speed reconstruction techniques for transmission-based ultrasound computed tomography using a circular transducer array. Pulse travel times between element pairs can be calculated from slowness (the reciprocal of sound speed) using the eikonal equation. Slowness reconstruction is posed as a nonlinear least squares problem where the objective is to minimize the error between measured and forward-modeled pulse travel times. The Gauss-Newton method is used to convert this problem into a sequence of linear least-squares problems, each of which can be efficiently solved using conjugate gradients. However, the sparsity of ray-pixel intersection leads to ill-conditioned linear systems and hinders stable convergence of the reconstruction. This work considers three approaches for resolving the ill-conditioning in this sequence of linear inverse problems: 1) Laplacian regularization, 2) Bayesian formulation, and 3) resolution-filling gradients. The goal of this work is to provide an open-source example and implementation of the algorithms used to perform sound speed reconstruction, which is currently being maintained on Github: https://github.com/ rehmanali1994/refractionCorrectedUSCT.github.io},
+  pdf={Ali2019OpenSourceBentRayTomography.pdf},
+  code={https://github.com/rehmanali1994/refractionCorrectedUSCT.github.io}
+}
 
 % Conference Proceedings without Open-Source Code
