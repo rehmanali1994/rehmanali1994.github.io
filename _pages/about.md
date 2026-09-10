@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Computational imaging researcher working at the intersection of **computational wave physics, inverse problems, and medical ultrasound imaging**.
 
 profile:
   align: right
@@ -27,18 +27,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a computational imaging researcher working at the intersection of **ultrasound imaging, inverse problems, wave physics, and medical imaging**.
+I completed my Ph.D. in Electrical Engineering in 2021 from Stanford University, advised by [Jeremy J. Dahl](https://med.stanford.edu/profiles/jeremy-dahl), [Biondo L. Biondi](https://profiles.stanford.edu/biondo-biondi), [Peter K. Kitanidis](https://cee.stanford.edu/people/peter-kitanidis), [John M. Pauly](https://web.stanford.edu/~pauly/index.html), and [Dwight G. Nishimura](https://profiles.stanford.edu/dwight-nishimura).
+
+I am a currently a postdoctoral fellow in the Department of Imaging Sciences at the University of Rochester Medical Center (URMC), advised by [Neb Duric](https://www.urmc.rochester.edu/people/112362836-nebojsa-duric), a former [astrophysicist](https://www.astro.utoronto.ca/AALibrary/doings/DDDoings_v17n5_1984.pdf) and pioneer in the field of ultrasound tomography.  
 
 My research focuses on developing wave-physics-based computational methods for quantitative ultrasound imaging, with an emphasis on **ultrasound tomography, sound-speed estimation, aberration correction, and full-waveform inversion (FWI)**. I am particularly interested in using wave propagation models and inversion methods to improve the resolution, quantitative accuracy, and robustness of ultrasound imaging.
 
-My current work develops computational approaches for both **transmission and pulse-echo ultrasound**, including frequency-domain and time-domain waveform inversion, wave-equation migration, Fourier-domain beamforming, and model-based correction of acoustic aberrations. A central goal of my research is to develop practical computational methods that can translate advanced wave physics into improved medical imaging systems.
+My current work develops computational approaches for both **transmission and pulse-echo ultrasound**, including frequency-domain and time-domain FWI, wave-equation migration velocity analysis, Fourier-domain beamforming, and model-based correction of acoustic aberrations.  A central goal of my research is to develop practical computational methods that can translate advanced wave physics into improved medical imaging systems.
 
-I am currently supported by the [**NIH K99/R00 Pathway to Independence Award**](https://reporter.nih.gov/project-details/11110522), through which I am establishing an independent research program in computational ultrasound imaging.
+I am currently supported by the [**NIH K99/R00 Pathway to Independence Award from the National Institute of Biomedical Imaging and Bioengineering (NIBIB)**](https://reporter.nih.gov/project-details/11110522), through which I am establishing an independent research program in computational ultrasound imaging.
 
 ### Research interests
 
 * Computational ultrasound imaging
-* Ultrasound tomography and sound-speed imaging
+* Transmission Ultrasound Tomography
+* Sound Speed Estimation for Pulse-Echo Ultrasound
 * Full-waveform inversion
 * Wave propagation and inverse problems
 * Acoustic aberration correction
