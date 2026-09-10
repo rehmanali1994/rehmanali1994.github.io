@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Smooth Inverse Criminal ... Allegedly
+subtitle: A Smooth Inverse Criminal ... Allegedly 😎
 
 profile:
   align: right
