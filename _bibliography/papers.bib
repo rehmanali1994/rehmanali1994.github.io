@@ -396,4 +396,139 @@
   code={https://github.com/rehmanali1994/refractionCorrectedUSCT.github.io}
 }
 
+@inproceedings{Ali2024OneWayDecomposition,
+  title={Efficient Helmholtz equation solver for frequency domain waveform inversion based on the decomposition into one-way wave equations},
+  author={Ali, Rehman and Wang, Feiyu and Mitcham, Trevor and Duric, Nebojsa},
+  booktitle={Medical Imaging 2024: Ultrasonic Imaging and Tomography},
+  volume={12932},
+  pages={262--268},
+  year={2024},
+  organization={SPIE},
+  doi={10.1117/12.3006288},
+  url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12932/3006288/Efficient-Helmholtz-equation-solver-for-frequency-domain-waveform-inversion-based/10.1117/12.3006288.full},
+  google_scholar_id={HDshCWvjkbEC},
+  bibtex_show = {true},
+  dimensions = {true},
+  abstract={When using a ring array to perform ultrasound tomography, the most computationally intensive component of frequency-domain full waveform inversion (FWI) is the Helmholtz equation solver. The Helmholtz equation is an elliptic partial differential equation (PDE) whose discretization leads to a large system of equations; in many cases, the solution of this large system is itself the inverse problem and requires an iterative method. Our current solution relies on discretizing the 2D Helmholtz equation based on a 9-point stencil and using the resulting block tridiagonal structure to efficiently compute a block LU factorization. Conceptually, the L and U systems are equivalent to a forward and backward wave propagation along one of the spatial dimensions of the grid, resulting in a direct non-iterative solution to the Helmholtz equation based on a single forward and backward sweep. Based on this observation, the PDE representation of the Helmholtz equation is split into two one-way wave equations prior to discretization. The numerical implementations of these one-way wave equations are highly parallelizable and lend themselves favorably to accelerated GPU implementations. We consider the Fourier split-step and phase-shift-plus-interpolation (PSPI) methods from seismic imaging as numerical solutions to the one-way wave equations. We examine how each scheme affects the numerical accuracy of the final Helmholtz equation solution and present its impact on FWI with breast imaging examples.},
+  pdf={Ali2024OneWayDecomposition.pdf},
+  poster={Ali2024OneWayDecomposition_Poster.pdf},
+  award_name = {2024 Ultrasonic Imaging and Tomography Cum Laude Poster Award}
+}
+
 % Conference Proceedings without Open-Source Code
+
+@inproceedings{klaben2026using,
+  title={Using JAX to develop cycle-skipping resistant full-waveform inversion techniques for ultrasound tomography},
+  author={Klaben, Alex and Singh, Melanie and Duric, Nebojsa and Ali, Rehman},
+  booktitle={Medical Imaging 2026: Ultrasonic Imaging and Tomography},
+  volume={13931},
+  pages={104--112},
+  year={2026},
+  organization={SPIE}
+}
+
+@inproceedings{owolabi2026least,
+  title={Least-squares low-frequency extrapolation for full-waveform inversion without cycle skipping},
+  author={Owolabi, Israel and Ali, Rehman and Mitcham, Trevor and Nketia, Victoria and Singh, Melanie and Duric, Nebojsa},
+  booktitle={Medical Imaging 2026: Ultrasonic Imaging and Tomography},
+  volume={13931},
+  pages={98--103},
+  year={2026},
+  organization={SPIE}
+}
+
+@inproceedings{nketia2026optimizing,
+  title={Optimizing computational efficiency and image quality in clinical breast ultrasound tomography through data downsampling},
+  author={Nketia, Victoria and Mitcham, Trevor and Garcia, Maria Camila Gonzalez and Ali, Rehman and Owolabi, Israel and Singh, Melanie and Duric, Neb},
+  booktitle={Medical Imaging 2026: Ultrasonic Imaging and Tomography},
+  volume={13931},
+  pages={118--133},
+  year={2026},
+  organization={SPIE}
+}
+
+@inproceedings{ali2026differentiable,
+  title={Differentiable reverse-time migration for sound speed estimation and aberration correction in medical pulse-echo ultrasound},
+  author={Ali, Rehman and Mitcham, Trevor and Duric, Nebojsa},
+  booktitle={Medical Imaging 2026: Ultrasonic Imaging and Tomography},
+  volume={13931},
+  pages={1393103},
+  year={2026},
+  organization={SPIE}
+}
+
+@inproceedings{ali2026target,
+  title={Target-following Lagrangian approach to sound speed estimation in pulse-echo ultrasound},
+  author={Ali, Rehman and Duric, Nebojsa},
+  booktitle={Medical Imaging 2026: Ultrasonic Imaging and Tomography},
+  volume={13931},
+  pages={26--33},
+  year={2026},
+  organization={SPIE}
+}
+
+@inproceedings{ali2026reviving,
+  title={Reviving and extending the mid-field phase screen model for distributed aberration correction},
+  author={Ali, Rehman and Mitcham, Trevor and Duric, Nebojsa},
+  booktitle={Medical Imaging 2026: Ultrasonic Imaging and Tomography},
+  volume={13931},
+  pages={368--374},
+  year={2026},
+  organization={SPIE}
+}
+
+@inproceedings{singh2026assessing,
+  title={Assessing the feasibility of brain imaging with ultrasound tomography: in-silico and in-vitro evaluation},
+  author={Singh, Melanie and Ali, Rehman and Mitcham, Trevor and Owolabi, Israel and Nketia, Victoria and Klaben, Alex and Duric, Nebojsa},
+  booktitle={Medical Imaging 2026: Ultrasonic Imaging and Tomography},
+  volume={13931},
+  pages={15--25},
+  year={2026},
+  organization={SPIE}
+}
+
+@inproceedings{10.1117/12.3046989,
+  author = {Patrick Marty and Christian Boehm and Trevor Mitcham and Rehman Ali and Neb Duric and Andreas Fichtner},
+  title = {{Optimal transport in transcranial ultrasound (Conference Presentation)}},
+  volume = {13412},
+  booktitle = {Medical Imaging 2025: Ultrasonic Imaging and Tomography},
+  editor = {Christian Boehm and Mohammad Mehrmohammadi},
+  organization = {International Society for Optics and Photonics},
+  publisher = {SPIE},
+  pages = {134120T},
+  keywords = {Transcranial Ultrasound, Optimal Transport, Ultrasound Computed Tomography, Adjoint Method, Full-Waveform Inversion, Spectral-Element Method},
+  year = {2025},
+  doi = {10.1117/12.3046989},
+  URL = {https://doi.org/10.1117/12.3046989}
+}
+
+@inproceedings{ali2024frequency,
+  title={Frequency-Differencing Method to Kickstart Waveform Inversion Without Cycle Skipping},
+  author={Ali, Rehman and Mitcham, Trevor and Duric, Nebojsa},
+  booktitle={2024 IEEE Ultrasonics, Ferroelectrics, and Frequency Control Joint Symposium (UFFC-JS)},
+  pages={1--4},
+  year={2024},
+  organization={IEEE}
+}
+
+@inproceedings{marty2024towards,
+  title={Towards elastic bone characterization in transcranial ultrasound},
+  author={Marty, Patrick and Mitcham, Trevor and Ali, Rehman and Boehm, Christian and Duric, Neb and Fichtner, Andreas},
+  booktitle={Medical Imaging 2024: Ultrasonic Imaging and Tomography},
+  volume={12932},
+  pages={116--129},
+  year={2024},
+  organization={SPIE}
+}
+
+@inproceedings{ali2024new,
+  title={A new strategy to overcome cycle skipping: frequency-difference waveform inversion},
+  author={Ali, Rehman and Mitcham, Trevor and Duric, Nebojsa},
+  booktitle={Medical Imaging 2024: Ultrasonic Imaging and Tomography},
+  volume={12932},
+  pages={85--92},
+  year={2024},
+  organization={SPIE}
+}
+
+
