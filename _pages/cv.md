@@ -2,7 +2,7 @@
 permalink: /assets/pdf/CV_RehmanAli.pdf
 title: CV
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
 #---
