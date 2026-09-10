@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Inverse Criminal
+subtitle: Smooth Inverse Criminal ... Allegedly
 
 profile:
   align: right
