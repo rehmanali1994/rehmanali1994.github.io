@@ -9,6 +9,8 @@ nav_order: 5
 
 {% for group in site.data.repositories.repository_groups %}
 
+---
+
 <br>
 
 ## {{ group.title }}
