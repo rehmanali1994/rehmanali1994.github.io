@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Statement of Teaching Interests and Plans (See Course Materials at the Bottom)
+description: Statement of Teaching Interests and Plans
 nav: true
 nav_order: 6
 calendar: true
