@@ -48,7 +48,7 @@ repository_groups:
       - rehmanali1994/refractionCorrectedUSCT.github.io
       - rehmanali1994/easy_computed_tomography.github.io
 
-  - title: Other Projects
+  - title: Miscellaneous Projects Outside Imaging
     description: >
       Computational neuroscience and biomedical instrumentation projects.
     repos:
