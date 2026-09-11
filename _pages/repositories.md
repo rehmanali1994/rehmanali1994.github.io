@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: A selection of research software and computational methods.
+description: Open-Source Software for Computational Ultrasound Imaging (Also Linked in Publications)
 nav: true
 nav_order: 5
 ---
