@@ -3,7 +3,7 @@ layout: course
 title: Inverse Problems in Imaging
 description: Graduate course on the mathematical and computational foundations of inverse problems in medical imaging.
 instructor: Rehman Ali
-year: 2025, 2026
+year: Spring 2025, Spring 2026
 term: Spring
 course_id: inverse-problems-in-imaging
 ---
