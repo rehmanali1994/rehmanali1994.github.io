@@ -2,14 +2,11 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Teaching statement, course materials, and resources for classes taught.
+description: Statement of Teaching Interests and Plans (See Course Materials/Resources at the Bottom)
 nav: true
 nav_order: 6
 calendar: true
 ---
-
-
-## Statement of Teaching Interests and Plans ##
 
 ### A. Philosophy and Core Values ###
 
@@ -28,11 +25,9 @@ Traditional medical imaging courses often focus on linear shift-invariant system
 Students enter medical engineering from highly diverse academic backgrounds. I see effective teaching as meeting students where they are and supporting them as they build both competence and confidence.  At the University of Rochester, I mentored international students with limited programming experience who sought to bring ultrasound tomography to low-resource clinical settings. Through individualized guidance and structured learning, they developed strong computational and analytical skills, ultimately leading independent projects.  This experience reinforced my belief that mentorship can empower students not only to succeed academically but also to broaden the global reach of engineering innovation.  Within my own independent research program, I will continue fostering this inclusive, mentorship-driven model—helping students from diverse backgrounds integrate physics and computation to advance imaging science and human health.  
 
 
-
 {%- comment -%}
 {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 {%- endcomment -%}
-
 
 
 {% include courses.liquid %}
