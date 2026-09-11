@@ -3,8 +3,26 @@ github_users:
 
 repo_description_lines_max: 2
 
-repository_groups:
+github_repos:
+  - rehmanali1994/WEMVA
+  - rehmanali1994/IMPACT
+  - rehmanali1994/DixInversion4MedicalUltrasound
+  - rehmanali1994/DistributedAberrationCorrection
+  - rehmanali1994/CurvilinearAngularSpectrumMethod
+  - rehmanali1994/FastFourierBeamformers
+  - rehmanali1994/FourierDomainBeamformer
+  - rehmanali1994/Plane_Wave_Ultrasound_Stolt_F-K_Migration.github.io
+  - rehmanali1994/MainlobeSidelobeSeparation
+  - rehmanali1994/FullWaveformInversionUSCT
+  - rehmanali1994/WaveformInversionUST
+  - rehmanali1994/3D-FWI-MultiRowRingArrayUST
+  - rehmanali1994/FrequencyDifferencing
+  - rehmanali1994/refractionCorrectedUSCT.github.io
+  - rehmanali1994/easy_computed_tomography.github.io
+  - rehmanali1994/Wilson-Cowan-Equations
+  - rehmanali1994/LabVIEW-Interface-for-Olimex-ECG-EMG-Arduino-Shield
 
+repository_groups:
   - title: Pulse-Echo Ultrasound Imaging
     description: >
       Frequency-Domain Beamforming, Sound Speed Estimation, and Aberration Correction Techniques for Pulse-Echo Ultrasound.
@@ -14,7 +32,7 @@ repository_groups:
       - rehmanali1994/DixInversion4MedicalUltrasound
       - rehmanali1994/DistributedAberrationCorrection
       - rehmanali1994/CurvilinearAngularSpectrumMethod
-      - rehmanali1994/FastFourierBeamformers 
+      - rehmanali1994/FastFourierBeamformers
       - rehmanali1994/FourierDomainBeamformer
       - rehmanali1994/Plane_Wave_Ultrasound_Stolt_F-K_Migration.github.io
       - rehmanali1994/MainlobeSidelobeSeparation
