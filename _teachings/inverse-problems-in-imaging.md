@@ -14,4 +14,8 @@ This course teaches students the mathematical principles and computations that u
 
 ## Syllabus
 
-[Download the course syllabus](/assets/pdf/inverse-problems-in-imaging-syllabus.pdf)
+[Download the detailed course syllabus](/assets/pdf/inverse-problems-in-imaging-syllabus.pdf)
+
+## Course Materials (Coming Soon)
+
+Complete course materials are currently under development.  I plan to make the full set of lecture slides (including YouTube lecture playlist), example code, homework assignments, and the final project available here.  As part of this effort, I am also revising the course to transition from MATLAB-based scripts to a fully Python-based workflow using Jupyter notebooks.  This transition will provide students with an interactive computational environment while making the course materials more accessible.  **Progress is underway—check back soon for the complete course materials.**
