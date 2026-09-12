@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Your Friendly Neighborhood Inverse Criminal 😎
+subtitle: Professional Inverse Criminal at Large 😎
 
 profile:
   align: right
@@ -36,8 +36,8 @@ I completed my M.S. in Computational and Mathematical Engineering in 2020, and m
 ### Research Interests
 
 My research focuses on developing wave-physics-based computational methods for the quantitative ultrasound imaging of tissue mechanical properties.  I am particularly interested in using wave propagation models and inversion methods to improve the resolution, quantitative accuracy, and robustness of ultrasound tissue characterization for high-impact clinical applications.  My current work develops computational imaging approaches for both **transmission ultrasound tomography and pulse-echo ultrasound**, including:
-* cycle-skipping-robust variants of FWI for transcranial ultrasound tomography
-* fast yet accurate 3D FWI models for whole-breast ultrasound tomography and breast cancer screening
+* Cycle-skipping-robust variants of FWI for transcranial ultrasound tomography
+* Fast, scalable, and accurate 3D FWI models for whole-breast ultrasound tomography and breast cancer screening
 * WEMVA for sound speed estimation and aberration correction in pulse-echo ultrasound
 
 ### Open-Source Projects
