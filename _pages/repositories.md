@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories
+title: Software/Code
 description: Open-Source Software for Computational Ultrasound Imaging (Also Linked in Publications)
 nav: true
 nav_order: 4
