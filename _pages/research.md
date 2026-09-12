@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /projects/
+permalink: /research/
 description: Statement of Research Vision; and Computational Ultrasound Imaging Research Projects.
 nav: true
 nav_order: 5
