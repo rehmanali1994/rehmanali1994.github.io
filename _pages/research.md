@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Statement of Research Vision; and Computational Ultrasound Imaging Research Projects.
 nav: true
 nav_order: 5
 display_categories: [work, fun]
@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 
-[Download my Research Statement](/assets/pdf/ResearchStatement.pdf)
+##[Download my Statement of Research Vision](/assets/pdf/ResearchStatement.pdf)
 
 
 <!-- pages/research.md -->
