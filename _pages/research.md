@@ -5,13 +5,13 @@ permalink: /research/
 description: Research Statement & Computational Ultrasound Imaging Research Projects.
 nav: true
 nav_order: 5
-display_categories: [Pulse-Echo Ultrasound, Ultrasound Computed Tomography, Clinical Applications]
+display_categories: [Pulse-Echo Ultrasound, Full-Waveform Inversion (FWI) for UST/USCT, Clinical Applications]
 horizontal: false
 ---
 
 ## Research Statement Overview
 
-My research focuses on developing computational ultrasound imaging techniques that treat image formation and reconstruction as inverse problems rooted in wave physics.  My work spans ***conventional pulse-echo ultrasound*** and an emerging modality known as ***ultrasound [computed] tomography (UST/USCT)***, which records the transmission of ultrasound through tissue.  Clinical applications include breast cancer screening, point-of-care assessment of acute neurological conditions, and quantitative imaging of the liver.  ***[Download my complete research statement for more details](/assets/pdf/ResearchStatement.pdf)***.
+My research focuses on developing computational ultrasound imaging techniques that treat image formation and reconstruction as inverse problems rooted in wave physics.  My work spans <ins>***conventional pulse-echo ultrasound***</ins> and an emerging modality known as <ins>***ultrasound [computed] tomography (UST/USCT)***</ins>, which records the transmission of ultrasound through tissue.  Clinical applications include breast cancer screening, point-of-care assessment of acute neurological conditions, and quantitative imaging of the liver.  ***[Download my complete research statement for more details](/assets/pdf/ResearchStatement.pdf)***.
 
 
 <!-- pages/research.md -->
