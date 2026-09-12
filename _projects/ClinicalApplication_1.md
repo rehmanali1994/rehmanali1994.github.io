@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Breast Cancer Screening and Diagnosis
-description: Towards a multi-row ring-array geometry for quantitative high-resolution volumetric 3D-FWI imaging of the breast.
+description: High-resolution volumetric imaging of the breast that is low-cost, quantitative, and free from ionizing radiation.
 img: assets/img/4.jpg
 importance: 1
 category: Clinical Applications
