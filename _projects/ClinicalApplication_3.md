@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quantitative Liver Imaging
-description: Ultrasound-based liver fat fraction assessment based on quantitative sound speed estimation in pulse-echo ultrasound.
+description: Ultrasound-based liver fat fraction assessment based on quantitative sound speed estimation and aberration correction in pulse-echo ultrasound
 img: assets/img/6.jpg
 importance: 4
 category: Clinical Applications
