@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 3D Full-Waveform Inversion (FWI)
+title: 3D Volumetric FWI
 description: another without an image
 img:
 importance: 3
-category: Ultrasound Computed Tomography
+category: Full-Waveform Inversion (FWI) for UST/USCT
 ---
 
 Every project has a beautiful feature showcase page.
