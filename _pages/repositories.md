@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Repositories
 description: Open-Source Software for Computational Ultrasound Imaging (Also Linked in Publications)
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 {% for group in site.data.repositories.repository_groups %}
