@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 
-## [Download my Statement of Research Vision](/assets/pdf/ResearchStatement.pdf)
+# [Download my Statement of Research Vision](/assets/pdf/ResearchStatement.pdf)
 
 
 <!-- pages/research.md -->
