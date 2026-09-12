@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 3D Full-Waveform Inversion
+title: 3D Full-Waveform Inversion (FWI)
 description: another without an image
 img:
 importance: 3
