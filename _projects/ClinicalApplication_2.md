@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Transcranial Whole-Brain Imaging
+title: Transcranial Imaging
 description: Whole-brain transcranial ultrasound computed tomography for rapid point-of-care assessment of acute neurological conditions
 img: assets/img/9.jpg
 importance: 2
