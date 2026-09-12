@@ -5,7 +5,7 @@ permalink: /projects/
 description: Statement of Research Vision; and Computational Ultrasound Imaging Research Projects.
 nav: true
 nav_order: 5
-display_categories: [Pulse-Echo Ultrasound Imaging, Ultrasound \[Computed\] Tomography (UST/USCT)]
+display_categories: [Pulse-Echo Ultrasound Imaging, Ultrasound [Computed] Tomography (UST/USCT)]
 horizontal: false
 ---
 
