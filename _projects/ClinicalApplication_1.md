@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Breast Cancer Screening and Diagnosis
-description: Quantitative, low-cost, high-resolution, and ionizing-radiation-free imaging of the whole breast based on ultrasound computed tomography
+title: Breast Cancer Screening
+description: Low-cost, quantitative, high-resolution, and ionizing-radiation-free imaging of the whole breast based on ultrasound computed tomography
 img: assets/img/4.jpg
 importance: 1
 category: Clinical Applications
