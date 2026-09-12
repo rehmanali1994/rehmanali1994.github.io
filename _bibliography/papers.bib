@@ -425,7 +425,7 @@
 
 % Conference Proceedings without Open-Source Code
 
-@inproceedings{klaben2026using,
+@inproceedings{Klaben2026JAX,
   bibtex_show = {true},
   dimensions = {true},
   title={Using JAX to develop cycle-skipping resistant full-waveform inversion techniques for ultrasound tomography},
@@ -437,11 +437,12 @@
   organization={SPIE},
   google_scholar_id={O3NaXMp0MMsC},
   doi={10.1117/12.3085595},
+  pdf={Klaben2026JAX.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13931/3085595/Using-JAX-to-develop-cycleskipping-resistant-fullwaveform-inversion-techniques-for/10.1117/12.3085595.full},
   abstract={Full-waveform inversion (FWI) is limited by its dependence on accurate starting models and sufficiently low-frequency signals to avoid cycle skipping. This motivates the many cycle-skipping robust alternatives proposed in the literature, including frequency-difference full-waveform inversion (FD-FWI) and adaptive waveform inversion (AWI). In this work, the JAX Python library was used to implement and compare these methods more rapidly than would otherwise be possible. Using JAX, the gradient of an objective function can be found using automatic differentiation, removing the need for analytically derived gradients. FWI, FD-FWI, and AWI were implemented using JAX, and each method was used to reconstruct images of the breast and of the brain through the skull. The data for these images was synthetically created using k-Wave, and a separate time-domain wave-equation solver was used in the reconstruction process. In breast imaging, both FD-FWI and AWI produced more accurate reconstructions than FWI when applied to k-Wave data produced with a 400kHz center frequency and a 50% bandwidth, with AWI producing the most accurate reconstruction. Relative to FWI, FD-FWI reduced the root-mean-square (RMS) error by 16.3m/s while AWI reduced the RMS error by 39.4m/s. In brain imaging, using a 100kHz center frequency and a 50% fractional bandwidth, FD-FWI and AWI produced more accurate reconstructions than FWI. Relative to FWI, FD-FWI reduced the RMS error by 66.0 m/s while AWI reduced the error by 98.1m/s. Both accurately recovered the bulk sound speed and two hemorrhages in the brain. Using a 200kHz center frequency and a 50% fractional bandwidth, FD-FWI increased the RMS error by 20.3m/s and AWI reduced the RMS error by 85.5m/s. These results indicate that in many cases FD-FWI is more robust to cycle-skipping than FWI, while AWI is consistently more robust than either FWI or FD-FWI. Additionally, AWI was found to be robust to noise with signal-to-noise ratios of 40dB or higher.}
 }
 
-@inproceedings{owolabi2026least,
+@inproceedings{Owolabi2026LowFrequencyExtrapolation,
   bibtex_show = {true},
   dimensions = {true},
   title={Least-squares low-frequency extrapolation for full-waveform inversion without cycle skipping},
@@ -453,11 +454,12 @@
   organization={SPIE},
   google_scholar_id={GnPB-g6toBAC},
   doi={10.1117/12.3084570},
+  pdf={Owolabi2026LowFrequencyExtrapolation.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13931/3084570/Leastsquares-lowfrequency-extrapolation-for-fullwaveform-inversion-without-cycle-skipping/10.1117/12.3084570.full},
   abstract={In most ultrasound transducer designs, priority is given to a high frequency operation to maximize spatial resolution in conventional B-mode reflectivity imaging. However, applying full-waveform inversion (FWI) with the same high frequency hardware presents significant challenges, most notably the risk of cycle skipping artifacts. These artifacts arise when a phase mismatch between the predicted and measured wavefields leads the inversion to converge to incorrect solutions (false local minimal). Overcoming this issue requires the presence of low frequency content, which improves the robustness of the inversion by increasing the wavelength of the waveform and thereby enables better alignment between the predicted and measured wavefields. Least-squares extrapolation of low frequency data provides the FWI with a good initial model for reconstruction of tissue parameters and builds upon our previous work on frequency-differencing to circumvent cycle-skipping artifacts in UST sound speed image reconstruction.}
 }
 
-@inproceedings{nketia2026optimizing,
+@inproceedings{Nketia2026Downsampling,
   bibtex_show = {true},
   dimensions = {true},
   title={Optimizing computational efficiency and image quality in clinical breast ultrasound tomography through data downsampling},
@@ -469,11 +471,12 @@
   organization={SPIE},
   google_scholar_id={BqipwSGYUEgC},
   doi={10.1117/12.3082370},
+  pdf={Nketia2026Downsampling.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13931/3082370/Optimizing-computational-efficiency-and-image-quality-in-clinical-breast-ultrasound/10.1117/12.3082370.full},
   abstract={Ultrasound tomography (UST) offers quantitative, high-resolution breast imaging, but widespread clinical adoption remains limited by long acquisition times, large raw data volumes, and high computational demands for image reconstruction. Some current systems employ a 1024-element ring transducer array, producing more than 2 GB of raw data per slice and nearly 200 GB for a full breast volume, resulting in considerable memory and storage requirements, hardware, and processing burdens. This study systematically investigates downsampling as a practical strategy to reduce data size, computational load, and reconstruction time while preserving diagnostic image quality. Using clinical UST data from a ring-array system, raw data were downsampled from 1024×1024 to 512×512 and 256×256, with additional transmit-only reductions applied by factors of 4, 8, 16, and 32. Images were reconstructed using a Full Waveform Inversion (FWI) algorithm, and the quality of the reconstructed images was evaluated across consistent anatomical Regions of Interest (ROIs). Quantitative metrics included Signal-to-Noise Ratio (SNR), Contrast-to-Noise Ratio (CNR), and Root Mean Square Error (RMSE). Results show that downsampling reduces reconstruction time by up to a factor of three while decreasing memory size. Although tumor SNR decreased with extreme downsampling, CNR remained largely comparable across many configurations, indicating preserved tumor detectability. The 64×256 configuration provided an optimal balance, offering strong CNR performance with a reconstruction 3 times faster compared to the 3.0 minutes of the full dataset. These findings demonstrate that strategic downsampling enables substantial efficiency gains with minimal loss of clinically relevant image quality, supporting the development of lower-cost, UST systems suitable for clinical use.}
 }
 
-@inproceedings{ali2026differentiable,
+@inproceedings{Ali2026DifferentiableRTM,
   bibtex_show = {true},
   dimensions = {true},
   title={Differentiable reverse-time migration for sound speed estimation and aberration correction in medical pulse-echo ultrasound},
@@ -485,11 +488,12 @@
   organization={SPIE},
   google_scholar_id={YFjsv_pBGBYC},
   doi={10.1117/12.3085607},
+  pdf={Ali2026DifferentiableRTM.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13931/3085607/Differentiable-reversetime-migration-for-sound-speed-estimation-and-aberration-correction/10.1117/12.3085607.full},
   abstract={Sound speed heterogeneities can create aberrations in B-mode ultrasound images by inducing tissue-dependent delays and diffractive effects that conventional beamforming does not incorporate. By using the Fourier split-step method to simulate pressure fields in heterogenous sound speed media, reverse-time migration (RTM) can reconstruct the B-mode image by cross-correlating transmitted and received pressure fields. As a result, RTM is differentiable with respect to sound speed. This enables the reconstruction of the sound speed profile that minimizes the aberration in the B-mode image. In seismic imaging, this form of diffraction tomography, known as wave-equation migration velocity analysis (WEMVA), can roughly be understood as a type of full-waveform inversion (FWI) that acts in the image space (i.e., migrated waveforms) rather than the data space (i.e., traces in the received channel data). This is the first work applying WEMVA to medical pulse-echo ultrasound imaging. Phantom experiments show dramatic improvements in image quality and an 80-87% improvement in point target resolution because of the proposed sound speed estimation and aberration correction scheme.}
 }
 
-@inproceedings{ali2026target,
+@inproceedings{Ali2026TargetFollowingLagrangianApproach,
   bibtex_show = {true},
   dimensions = {true},
   title={Target-following Lagrangian approach to sound speed estimation in pulse-echo ultrasound},
@@ -501,11 +505,12 @@
   organization={SPIE},
   google_scholar_id={NMxIlDl6LWMC},
   doi={10.1117/12.3085613},
+  pdf={Ali2026TargetFollowingLagrangianApproach.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13931/3085613/Targetfollowing-Lagrangian-approach-to-sound-speed-estimation-in-pulseecho-ultrasound/10.1117/12.3085613.full},
   abstract={Sound speed estimation in pulse-echo ultrasound typically involves minimizing aberrations over a fixed grid of image points. However, the apparent positions of imaging targets depend on the speed of sound. In other words, each image point on a fixed grid may correspond to different imaging targets as the sound speed estimate changes. This source of nonlinearity becomes especially problematic when applying differentiable beamforming over a fixed imaging grid to estimate the speed of sound in a layered medium. Ideally, sound speed reconstruction would be based on a fixed set of imaging targets rather than a fixed set of image points. From a continuum mechanics perspective, working with a fixed image grid takes a strictly Eulerian approach to sound speed estimation. A Lagrangian approach would follow the image targets as the change in sound speed deforms the image from its initial configuration. By using an adaptive grid of image points that follows the image targets as the sound speed changes, we effectively account for both Eulerian and Lagrangian aspects of the problem. Simulations show that this target-following approach reduces the nonlinearity of the inverse problem of sound speed estimation in layered media.}
 }
 
-@inproceedings{ali2026reviving,
+@inproceedings{Ali2026MidFieldPhaseScreenModel,
   bibtex_show = {true},
   dimensions = {true},
   title={Reviving and extending the mid-field phase screen model for distributed aberration correction},
@@ -517,11 +522,12 @@
   organization={SPIE},
   google_scholar_id={hMod-77fHWUC},
   doi={10.1117/12.3085608},
+  pdf={Ali2026MidFieldPhaseScreenModel.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13931/3085608/Reviving-and-extending-the-midfield-phase-screen-model-for-distributed/10.1117/12.3085608.full},
   abstract={Aberration is one the key sources of image degradation in handheld B-mode ultrasound imaging. Sound speed heterogeneities in human tissue induce path-dependent delays that result in spatially varying aberrations in the image. One of the earliest models for aberration was the near-field phase screen. This was later extended to a mid-field phase screen model by introducing an offset between the aberrating screen and the transducer surface. By introducing this offset, the mid-field phase screen model could capture the parallax in the aberrations observed in the image. However, a single mid-field phase screen cannot fully capture the aberrations caused by a spatially varying sound speed. In this work, we extend the mid-field phase screen model by placing phase screens at multiple depths and demonstrate its approximate equivalence to a full sound speed profile under a straight-ray assumption. Phantom experiments show a 51-62% improvement in point target resolution because of the proposed aberration model and correction scheme.}
 }
 
-@inproceedings{singh2026assessing,
+@inproceedings{Singh2026TranscranialUST,
   bibtex_show = {true},
   dimensions = {true},
   title={Assessing the feasibility of brain imaging with ultrasound tomography: in-silico and in-vitro evaluation},
@@ -533,6 +539,7 @@
   organization={SPIE},
   google_scholar_id={blknAaTinKkC},
   doi={10.1117/12.3086112},
+  pdf={Singh2026TranscranialUST.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13931/3086112/Assessing-the-feasibility-of-brain-imaging-with-ultrasound-tomography/10.1117/12.3086112.full},
   abstract={Ultrasound Tomography (UST) provides a non-invasive way to reconstruct high-resolution images of tissue properties. When there is a high contrast between tissue properties, limited low-frequency signal content makes it difficult to apply UST to brain imaging, especially when high-impedance structures like bone are present. This study used both in-silico and in-vitro experiments to assess the viability of UST for brain imaging. A frequency-domain full waveform inversion (FWI) algorithm was used for image reconstructions. The impact of reconstruction parameters on image quality was methodically investigated. We validate our simulation techniques through comparison with experimental data and provide useful guidance for enhancing UST-based brain imaging in clinical settings. Results show that frequencies as low as 50kHz may be needed to mitigate cycle skipping artifacts and using smaller iterative step sizes further stabilized the reconstructions against cycle skipping.}
 }
@@ -555,7 +562,7 @@
   URL = {https://doi.org/10.1117/12.3046989}
 }
 
-@inproceedings{ali2024frequency,
+@inproceedings{Ali2024FrequencyDifferencing,
   bibtex_show = {true},
   dimensions = {true},
   title={Frequency-Differencing Method to Kickstart Waveform Inversion Without Cycle Skipping},
@@ -566,11 +573,12 @@
   organization={IEEE},
   google_scholar_id={_Qo2XoVZTnwC},
   doi={10.1109/UFFC-JS60046.2024.10794178},
+  pdf={Ali2024FrequencyDifferencing.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/10794178},
   abstract={Because of its fast reconstruction times, frequency-domain full waveform inversion is the clinical gold standard for high-resolution sound speed imaging in medical ultrasound tomography; however, it fundamentally relies on having sufficiently low-frequency data to avoiding cycle skipping. This motivates the development of new strategies that can overcome cycle skipping in the absence of low-frequency data. In this work, we synthesize approximate low-frequency content from existing high-frequency signals using the same frequency differencing method used in frequency-difference beamforming for underwater sonar. The approximate low-frequency content is then used to kickstart full-waveform inversion so that cycle skipping can be better avoided at higher frequencies. We demonstrate the efficacy of this new approach using in-vivo breast imaging cases. In each case, internal tissue structures are seen with much greater clarity without cycle skipping artifacts when frequency differencing is used to provide a starting model for conventional full-waveform inversion.}
 }
 
-@inproceedings{marty2024towards,
+@inproceedings{Marty2024ElasticBoneCharacterization,
   bibtex_show = {true},
   dimensions = {true},
   title={Towards elastic bone characterization in transcranial ultrasound},
@@ -582,11 +590,12 @@
   organization={SPIE},
   google_scholar_id={R3hNpaxXUhUC},
   doi={10.1117/12.3006769},
+  pdf={Marty2024ElasticBoneCharacterization.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12932/3006769/Towards-elastic-bone-characterization-in-transcranial-ultrasound/10.1117/12.3006769.full},
   abstract={Constructing a physics-augmented digital twin of the skull is imperative for a wide range of transcranial ultrasound applications including ultrasound computed tomography and focused ultrasound therapy. The high impedance contrast as well as the acoustic-elastic coupling observed between soft tissue and bone increase the complexity of the ultrasound wavefield considerably, thus emphasizing the need for waveform-based inversion approaches. This work applies reverse time migration in conjunction with the spectral-element method to an in vitro human skull to obtain a starting model, which can be used for full-waveform inversion and adjoint-based shape optimization. Two distinct brain phantoms are considered where the cranial cavity of the in vitro human skull was filled with (1) homogeneous water and (2) gelatin with two cylindrical inclusions. A 2D slice through the posterior of the skull was collected using a ring-like aperture consisting of 1024 ultrasound transducers with a bandwidth of approximately 1MHz to 3MHz. Waveform-based reverse time migration was then used to resolve the inner and outer contours of the skull from which a conforming hexahedral finite-element mesh was constructed. The synthetically generated measurements which are obtained by solving the coupled acoustic-viscoelastic wave equation are in good agreement with the observed laboratory measurements. It is demonstrated that using this revised wave speed model for recomputing the reverse time migration reconstructions allows for improved localization of the gelatin inclusions within the cranial cavity.}
 }
 
-@inproceedings{ali2024new,
+@inproceedings{Ali2024FrequencyDifferenceFWI,
   bibtex_show = {true},
   dimensions = {true},
   title={A new strategy to overcome cycle skipping: frequency-difference waveform inversion},
@@ -598,11 +607,12 @@
   organization={SPIE},
   google_scholar_id={TQgYirikUcIC},
   doi={10.1117/12.3006287},
+  pdf={Ali2024FrequencyDifferenceFWI.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12932/3006287/A-new-strategy-to-overcome-cycle-skipping--frequency-difference/10.1117/12.3006287.full},
   abstract={Most ultrasound transducer designs are driven towards high frequencies by the need to maximize the resolution achievable by B-mode reflectivity imaging. Because full-waveform inversion (FWI) requires low frequencies to overcome cycle skipping, it is often difficult to apply FWI to the same high-frequency transducer hardware. Recent work on time-domain adaptive waveform inversion (AWI) addresses this based on a deconvolution approach to overcome cycle skipping. However, most clinical implementations of ultrasound tomography rely on frequency-domain FWI to quickly reconstruct images on clinically relevant time scales. Although the broadband nature of AWI makes it difficult to translate to the frequency domain, we can approximate the properties of AWI by using a frequency-differencing approach. We develop and describe both a model-domain and a data-domain method for frequency-differencing. Simulations and phantom experiments show that each frequency-differencing approach helps overcome cycle skipping by providing a sufficiently accurate starting model for FWI.}
 }
 
-@inproceedings{mitcham2024imaging,
+@inproceedings{Mitcham2024ImagingStroke,
   bibtex_show = {true},
   dimensions = {true},
   title={Imaging stroke through the skull using ultrasound tomography},
@@ -614,11 +624,12 @@
   organization={SPIE},
   google_scholar_id={mB3voiENLucC},
   doi={10.1117/12.3006595},
+  pdf={Mitcham2024ImagingStroke.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12932/3006595/Imaging-stroke-through-the-skull-using-ultrasound-tomography/10.1117/12.3006595.full},
   abstract={Stroke is a significant cause of mortality and disability in America. Due to differences in the treatment of ischemic and hemorrhagic stroke, imaging must be performed before administration of therapeutic medication. Unfortunately, the current standard imaging methods, namely CT and MRI, require specialized locations and staff, which can induce delays in triage, and therefore, treatment time. Recent work suggests that ultrasound tomography (UST) is capable of imaging in vivo tissue properties and may have potential as a diagnostic tool during stroke treatment which could be performed at the point of injury rather than at a local hospital. In this work, we investigate the feasibility of using UST imaging to image the brain via in silico, in vitro, and ex vivo studies. The results of this work indicate some of the challenges which must be overcome to effectively image in vivo stroke patients.}
 }
 
-@inproceedings{ali2023iterative,
+@inproceedings{Ali2023IterativeAberrationCorrection,
   bibtex_show = {true},
   dimensions = {true},
   title={Iterative sound speed tomography for distributed aberration correction},
@@ -629,11 +640,12 @@
   organization={IEEE},
   google_scholar_id={7PzlFSSx8tAC},
   doi={10.1109/IUS51837.2023.10306695},
+  pdf={Ali2023IterativeAberrationCorrection.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/10306695},
   abstract={In pulse-echo ultrasound imaging, there exists a strong duality between sound speed estimation and aberration correction. This has led to the development of closed-loop iterative frameworks that address both estimation and correction simultaneously. This work revisits previous work on wave-equation migration velocity analysis (WEMVA) to derive and explain our new closed-loop solution to the problem based on a waveform inversion-style approach: full-waveform iterative model-based phase aberration computed tomography (Full-Waveform IMPACT). Full-Waveform IMPACT reproduces the same velocity-depth ambiguities that many previous works have described. However, by approaching the problem using a waveform inversion-style method, we demonstrate that the velocity-depth ambiguity is intricately tied to the problem of cycle skipping and false local minima.}
 }
 
-@inproceedings{ali2023waveform,
+@inproceedings{Ali2023FWI,
   bibtex_show = {true},
   dimensions = {true},
   title={Waveform Inversion in Ultrasound Tomography from Homogeneous Starting Models},
@@ -644,11 +656,12 @@
   organization={IEEE},
   google_scholar_id={dhFuZR0502QC},
   doi={10.1109/IUS51837.2023.10307870},
+  pdf={Ali2023FWI.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/10307870},
   abstract={While waveform inversion is the clinical gold standard for obtaining high-resolution images of sound speed and attenuation in tissue, it was long assumed that bent ray tomography was necessary to obtain a starting model, especially with a ring array transducer. However, recent works show that waveform inversion is possible with a reasonable choice of homogeneous starting models and sufficiently low-frequency content in the waveform to avoid cycle skipping. In the case of transcranial imaging, we cannot afford to use a bent ray tomography because it quickly becomes unstable in the presence of a highly refractive skull. We examine the parameters that would enable waveform inversion to image the soft tissue in the brain through the high sound speed and attenuation in the skull.}
 }
 
-@inproceedings{mitcham2023feasibility,
+@inproceedings{Mitcham2023IschemicStrokeThroughSkull,
   bibtex_show = {true},
   dimensions = {true},
   title={Feasibility of imaging ischemic stroke through the skull using ultrasound tomography},
@@ -659,11 +672,12 @@
   organization={IEEE},
   google_scholar_id={QIV2ME_5wuYC},
   doi={10.1109/IUS51837.2023.10308116},
+  pdf={Mitcham2023IschemicStrokeThroughSkull.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/10308116},
   abstract={Stroke is a significant cause of mortality and disability in America. Due to differences in ischemic and hemorrhagic stroke, imaging must be performed before administration of therapeutic medication; however, the nature of both CT and MRI imaging can induce delays in triage time. Recent work suggests that ultrasound tomography (UST) is capable of imaging in vivo tissue properties and may have potential as a diagnostic tool during stroke treatment which could be performed at the patient’s location rather than at a local hospital. In this work, we investigate the feasibility of using UST imaging to detect ischemic stroke in tissue-mimicking environments in both in silico and in vitro studies. The results of this work dictate the challenges which must be overcome in order to effectively image in vivo stroke patients.}
 }
 
-@inproceedings{ali2023distributed,
+@inproceedings{Ali2023DistributedAberrationCorrection,
   bibtex_show = {true},
   dimensions = {true},
   title={Distributed aberration correction in handheld ultrasound based on tomographic estimates of the speed of sound},
@@ -675,11 +689,12 @@
   organization={SPIE},
   google_scholar_id={mVmsd5A6BfQC},
   doi={10.1117/12.2653935},
+  pdf={Ali2023DistributedAberrationCorrection.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12470/2653935/Distributed-aberration-correction-in-handheld-ultrasound-based-on-tomographic-estimates/10.1117/12.2653935.full},
   abstract={Phase aberration is one the key sources of image degradation in handheld B-mode ultrasound imaging. Sound speed heterogeneities create phase aberrations in the image by inducing additional tissue-dependent delays and diffractive effects that conventional beamforming does not incorporate. For this reason, the Fourier split-step angular spectrum method is used to simulate pressure fields in a heterogeneous sound speed medium and create B-mode images based on the cross-correlation of transmitted and received wavefields. Because the strongest aberrations are caused by a laterally varying sound speed profile, this work presents a new sound speed estimator that can be used to correct for aberrations in laterally varying media. Phantom experiments show a 58-76% improvement in point target resolution and a 2.5x improvement in contrast-to-noise ratio because of the proposed sound speed estimation and phase aberration correction scheme.}
 }
 
-@inproceedings{ali2023impact,
+@inproceedings{Ali2023StartingModelFWI,
   bibtex_show = {true},
   dimensions = {true},
   title={Impact of starting model on waveform inversion in ultrasound tomography},
@@ -691,11 +706,12 @@
   organization={SPIE},
   google_scholar_id={Wp0gIr-vW9MC},
   doi={10.1117/12.2653575},
+  pdf={Ali2023StartingModelFWI.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12470/2653575/Impact-of-starting-model-on-waveform-inversion-in-ultrasound-tomography/10.1117/12.2653575.full},
   abstract={The convergence of waveform inversion in ultrasound tomography is heavily impacted by the choice of starting model. Ray tomography is often used as the starting model for waveform inversion; however, artifacts resulting from ray tomography can continue to persist during waveform inversion. On the other hand, a homogeneous starting model for waveform inversion may result in cycle skipping artifacts if the frequency of the transmitted waveform is too high or the error between the starting model and ground-truth is too large. Clinical in vivo breast data suggests that waveform inversion from a homogeneous starting model is sufficient for an accurate reconstruction of the speed of sound if the starting model is close enough to the average speed of sound in the medium and the starting frequency for waveform inversion is sufficiently low to avoid cycle skipping. Comparing the results of waveform inversion using ray tomography and a homogeneous sound speed as initial models, the homogeneous starting model avoids oscillatory artifacts produced by ray tomography at the edges of the breast. Although the RMS error between the two waveform inversion results is 29.6 m/s, most of the error is the result of reconstruction artifacts at the edges of the breast. When the RMS error is measured inside the breast away from its boundaries, this RMS error drops down to 11.5 m/s.}
 }
 
-@inproceedings{brevett2022speed,
+@inproceedings{Brevett2022CMP,
   bibtex_show = {true},
   dimensions = {true},
   title={Speed of sound estimation at multiple angles from common midpoint gathers of non-beamformed data},
@@ -706,11 +722,12 @@
   organization={IEEE},
   google_scholar_id={qxL8FJ1GzNcC},
   doi={10.1109/IUS54386.2022.9958779},
+  pdf={Brevett2022CMP.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/9958779},
   abstract={Sound speed estimation is a promising quantitative parameter in ultrasound for both for it's potential as a biomarker, where sound speed is known to be correlated with biological changes, and for aberration correction, where knowledge of the sound speed allows for correction of distortions in the image. Previous methods for sound speed estimation rely on the use of an a-priori sound speed for beamforming, from which sound-speed estimates are then calculated. However, this assumption introduces a bias in the estimation technique, because errors in the a-priori sound speed lead to distortions in the image. Here we present a method for sound speed estimation that avoids this bias by estimating the sound speed without beamforming.}
 }
 
-@inproceedings{sanabria2022direct,
+@inproceedings{Sanabria2022DualRegularization,
   bibtex_show = {true},
   dimensions = {true},
   title={Direct speed of sound reconstruction from full-synthetic aperture data with dual regularization},
@@ -721,11 +738,12 @@
   organization={IEEE},
   google_scholar_id={M3ejUd6NZC8C},
   doi={10.1109/IUS54386.2022.9958718},
+  pdf={Sanabria2022DualRegularization.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/9958718},
   abstract={Speed-of-sound (SoS) reconstruction in pulse-echo ultrasound can reduce aberrations in imaging and provide quantitative biomarkers for diagnostics. State-of-the-art SoS imaging requires beamformed data for time-delay estimation. This translates either into multi-layered models, where absolute delays ti at multiple depths are fitted to axial SoS variations, or a perturbation approach, where differential delays between adjacent paths τi are used to map SoS heterogeneities. In this work, we remove the beamforming constraint and propose a dual regularization method to combine absolute and differential delays into a generalized SoS reconstruction. Our approach provides quantitative reconstructions in both layered distributions and focal lesions with bias < 2.3 m/s and rmse < 6 m/s. Moreover, it allows scatterer localization with sub-micron resolution. We show experimental results in SoS reconstruction through heterogeneous aberrating layers.}
 }
 
-@inproceedings{ali2020medical,
+@inproceedings{Ali2020WavefieldCorrelation,
   bibtex_show = {true},
   dimensions = {true},
   title={Medical pulse-echo ultrasound imaging based on the cross-correlation of transmitted and backpropagated-receive wavefields},
@@ -736,11 +754,12 @@
   organization={IEEE},
   google_scholar_id={0EnyYjriUFMC},
   doi={10.1109/IUS46767.2020.9251320},
+  pdf={Ali2020WavefieldCorrelation.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/9251320},
   abstract={In seismic imaging, a shot gather collects time series data from all receivers (geophones) with a common transmitter (source or shot). Shot-gather migration is an imaging technique that performs time-domain cross-correlation of the transmitted wavefield with the back-propagated receive wavefield. Shot-gather migration can be used to achieve the focusing quality of synthetic aperture imaging without susceptibility to motion by accurately modeling each wave-front, regardless of the transmit sequence applied. Since wave propagation is parameterized by the speed of sound in the medium, shot gather migration can also be used to perform distributed phase aberration correction enabling additional focusing improvements. In this work, we illustrate the shot gather migration process for point targets in simulation.}
 }
 
-@inproceedings{ali2020application,
+@inproceedings{Ali2020CMP,
   bibtex_show = {true},
   dimensions = {true},
   title={Application of common midpoint gathers to medical pulse-echo ultrasound for optimal coherence and improved sound speed estimation in layered media},
@@ -751,11 +770,12 @@
   organization={IEEE},
   google_scholar_id={hqOjcs7Dif8C},
   doi={10.1109/IUS46767.2020.9251370},
+  pdf={Ali2020CMP.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/9251370},
   abstract={In seismic imaging, common midpoint (CMP) gathers are collections of time-series data organized by source-receiver pairs having a common midpoint. CMP gathers have been used in geophysics to image the subsurface of the Earth and estimate wave velocity as a function of depth. According to the Van Cittert-Zernike (VCZ) theorem, if the signals from a CMP gather are focused using an ideal set of delays based on the true speed of sound in the medium, there should be a perfect correlation between any two signals in the CMP gather in the absence of noise. In ultrasound imaging, Walker et al. have applied this concept to translating transmit and receive apertures. The goal of this work is to apply CMP gathers to pulse-echo ultrasound imaging in order to improve coherence-based sound speed estimation in layered media.}
 }
 
-@inproceedings{ali2020sound,
+@inproceedings{Ali2020PlaneWaveSoS,
   bibtex_show = {true},
   dimensions = {true},
   title={Sound speed estimation in layered media using the angular coherence of plane waves},
@@ -767,11 +787,12 @@
   organization={SPIE},
   google_scholar_id={UebtZRa9Y70C},
   doi={10.1117/12.2548878},
+  pdf={Ali2020PlaneWaveSoS.pdf},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11319/2548878/Sound-speed-estimation-in-layered-media-using-the-angular-coherence/10.1117/12.2548878.full},
   abstract={We present a refraction-corrected sound speed reconstruction technique for layered media based on the angular coherence of plane waves. Previous work has successfully shown that sound speed estimation and refraction- corrected image reconstruction can be achieved using the coherence of full-synthetic aperture channel data. However, methods for acquiring the full-synthetic aperture dataset require a large number of transmissions, which can confound sound speed estimation due to the scatterer motion between transmit events, especially for in-vivo application. Furthermore, sound speed estimation requires producing full-synthetic aperture coherence images for each trial sound speed, which can make the overall computational cost quite burdensome. The angular coherence beamformer, initially devised as a quicker alternative to the more conventional spatial coherence beamformer, measures coherence between fully-beamformed I/Q channel data for each plane wave as opposed to the receive channel data prior to receive beamforming. As a result, angular coherence beamforming can significantly reduce the computation time needed to reconstruct a coherence image by taking advantage of receive beamforming. Previous work has used the coherence maximization of full-synthetic aperture channel data to perform sound speed estimation. By replacing spatial coherence with angular coherence, we apply a similar methodology to channel data from plane-waves to significantly reduce the computational cost of sound speed estimation. This methodology has been confirmed by both simulated and experimental channel data from plane waves.}
 }
 
-@inproceedings{ali2019iterative,
+@inproceedings{Ali2019IterativeREFoCUS,
   bibtex_show = {true},
   dimensions = {true},
   title={Iterative retrospective recovery of full synthetic aperture data from focused transmissions},
@@ -782,11 +803,12 @@
   organization={IEEE},
   google_scholar_id={roLk4NBRz8UC},
   doi={10.1109/ULTSYM.2019.8925717},
+  pdf={Ali2019IterativeREFoCUS.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/8925717},
   abstract={Retrospective Encoding For Conventional Ultrasound Sequences (REFoCUS) enables recovery of the full-synthetic aperture (FSA) dataset from focused transmits while avoiding the drawbacks of single- and virtual-element transmissions. It was recently shown that a regularized inversion approach significantly improves the accuracy of the recovered FSA dataset over the REFoCUS method when applied to a walking-aperture transmit sequence. However, this approach becomes computationally burdensome when applied to walking aperture sequences on larger linear arrays. We present an iterative form of REFoCUS that improves FSA dataset recovery to better handle these cases.}
 }
 
-@inproceedings{ali2019travel,
+@inproceedings{Ali2019Average2LocalSoS,
   bibtex_show = {true},
   dimensions = {true},
   title={Travel-time tomography for local sound speed reconstruction using average sound speeds},
@@ -797,11 +819,12 @@
   organization={IEEE},
   google_scholar_id={LkGwnXOMwfcC},
   doi={10.1109/ULTSYM.2019.8925890},
+  pdf={Ali2019Average2LocalSoS.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/8925890},
   abstract={Our previous work on estimating the local speed of sound from average sound speed assumes a perfectly layered medium where sound speed is only allowed to vary axially away from the transducer surface. This layered-medium approach relies on inverting the relationship between the local interval sound speeds in each layer and the effective average sound speed up to a particular imaging depth. The primary limitation of this approach is that local sound speed estimation can become inaccurate in the presence of lateral variations in sound speed or a curved transducer surface. To better estimate sound speed in the presence of these non-idealities, we propose a travel-time tomographic approach that accounts for propagation paths from the scattering volume to each transducer element.}
 }
 
-@inproceedings{ali2018regularized,
+@inproceedings{Ali2018RegularizedREFoCUS,
   bibtex_show = {true},
   dimensions = {true},
   title={Regularized inversion method for frequency-domain recovery of the full synthetic aperture dataset from focused transmissions},
@@ -812,6 +835,7 @@
   organization={IEEE},
   google_scholar_id={eQOLeE2rZwMC},
   doi={10.1109/ULTSYM.2018.8580213},
+  pdf={Ali2018RegularizedREFoCUS.pdf},
   url={https://ieeexplore.ieee.org/abstract/document/8580213},
   abstract={Accurate recovery of the full-synthetic aperture (FSA) dataset from focused transmissions can enable synthetic transmit focusing without the drawbacks of single-element and virtual-element transmissions and enable a wide array of imaging techniques that require the FSA dataset. Recovery of the FSA dataset has previously been performed using an adjoint-based method on a steered transmit sequence for phased-arrays. We present a regularized inversion method for FSA dataset recovery that allows a wider variety of aperture specifications and is intended to perform more accurately in walking aperture sequences. The goal of this method is to improve FSA dataset accuracy and achievable image quality.}
 }
