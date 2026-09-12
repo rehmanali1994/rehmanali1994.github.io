@@ -2,15 +2,16 @@
 layout: page
 title: Research
 permalink: /research/
-description: Statement of Research Vision; and Computational Ultrasound Imaging Research Projects.
+description: Research Statement & Computational Ultrasound Imaging Research Projects.
 nav: true
 nav_order: 5
-display_categories: [Pulse-Echo Ultrasound Imaging, Ultrasound Computed Tomography (UST/USCT)]
+display_categories: [Pulse-Echo Ultrasound, Ultrasound Computed Tomography, Clinical Applications]
 horizontal: false
 ---
 
+## Research Statement Overview
 
-# [Download my Statement of Research Vision](/assets/pdf/ResearchStatement.pdf)
+My research focuses on developing computational ultrasound imaging techniques that treat image formation and reconstruction as inverse problems rooted in wave physics.  My work spans conventional pulse-echo ultrasound and an emerging modality known as ultrasound [computed] tomography (UST/USCT), which records the transmission of ultrasound through tissue.  Clinical applications include breast cancer screening, point-of-care assessment of acute neurological conditions, and quantitative imaging of the liver.  ***[Download my complete research statement for more details](/assets/pdf/ResearchStatement.pdf)***
 
 
 <!-- pages/research.md -->
