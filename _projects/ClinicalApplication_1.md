@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Breast Cancer Screening and Diagnosis
-description: High-resolution volumetric imaging of the breast that is low-cost, quantitative, and free from ionizing radiation.
+description: Low-cost, quantitative, and high-resolution volumetric imaging of the breast based on ultrasound computed tomography — free from ionizing radiation
 img: assets/img/4.jpg
 importance: 1
 category: Clinical Applications
