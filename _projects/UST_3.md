@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multiparametric & Elastic FWI
-description: a project with no image
+description: Extending the wave physics model and FWI to reconstruct multiple tissue mechanical properties
 img: assets/img/TransmissionVsReflection.png
 importance: 4
 category: Full-Waveform Inversion (FWI) for UST/USCT
