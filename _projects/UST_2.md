@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Making FWI Robust to Cycle Skipping
+title: Making FWI Robust Against False Minima
 description: Variants of FWI robust against false minima caused by cycle skipping
 img: assets/img/CycleSkipping.png
 importance: 3
