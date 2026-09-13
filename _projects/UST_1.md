@@ -1,6 +1,6 @@
 ---
 layout: page
-title: From 2D to 3D FWI
+title: 3D FWI
 description: Fast, scalable, and accurate implementations/approximations of the 3D wave equation + UST/USCT systems to support 3D FWI
 img: assets/img/MultiRowRingArray.png
 importance: 3
