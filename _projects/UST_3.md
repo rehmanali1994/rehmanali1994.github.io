@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multiparametric & Elastic FWI
+title: Multiparametric and Elastic FWI
 description: Extending the wave physics model and FWI to reconstruct multiple tissue mechanical properties
 img: assets/img/kWave_BreastCT.gif
 importance: 4
