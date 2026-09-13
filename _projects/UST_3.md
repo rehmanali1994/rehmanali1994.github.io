@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
+title: Multiparametric/Elastic FWI
 description: a project with no image
 img:
 importance: 4
-category: Ultrasound Computed Tomography
+category: Full-Waveform Inversion (FWI) for UST/USCT
 ---
 
 Every project has a beautiful feature showcase page.
