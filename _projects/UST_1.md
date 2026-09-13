@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 3D Volumetric FWI
-description: another without an image
+description: Fast, scalable, and accurate implementations/approximations of the 3D wave equation + UST/USCT systems to support 3D FWI
 img: assets/img/MultiRowRingArray.png
 importance: 3
 category: Full-Waveform Inversion (FWI) for UST/USCT
