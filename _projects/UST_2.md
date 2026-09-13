@@ -2,7 +2,7 @@
 layout: page
 title: Cycle-Skipping-Robust FWI
 description: a project with a background image
-img: assets/img/1.jpg
+img: assets/img/CycleSkipping.png
 importance: 3
 category: Full-Waveform Inversion (FWI) for UST/USCT
 ---
