@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Aberration Correction
-description: Aberration correction for pulse-echo ultrasound image formation/beamforming
+description: Aberration correction for pulse-echo ultrasound imaging and beamforming
 img: assets/img/PhantomVSX2.gif
 importance: 2
 category: Pulse-Echo Ultrasound
