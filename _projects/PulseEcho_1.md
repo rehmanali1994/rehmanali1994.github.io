@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sound Speed Estimation
-description: with background image
+description: Inverse problem of reconstructing the sound speed profile of tissue from limited-angle pulse-echo ultrasound channel data
 img: assets/img/SoundSpeedEstimation.png
 importance: 1
 category: Pulse-Echo Ultrasound
