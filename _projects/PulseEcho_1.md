@@ -42,6 +42,6 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Generalized Distributed Local Sound Speed Estimation in Layered Media.  I generalized the relationship between the average focusing sound speed to a point and the local profile of sound speed in the medium to account for all paths to a point {% cite Ali2019Average2LocalSoS %}.  However, as later shown in {% cite Ali2019Average2LocalSoS %}, these simplifications in layered media quickly break down as lateral variations in sound speed increase.  
+    Generalized Distributed Local Sound Speed Estimation in Layered Media.  I generalized the relationship between the average focusing sound speed to a point and the local profile of sound speed in the medium to account for all paths to a point {% cite Ali2019Average2LocalSoS %}.  However, as later shown in {% cite Ali2022DistributedAberrationCorrection %}, these simplifications in layered media quickly break down as lateral variations in sound speed increase.  
 </div>
 
