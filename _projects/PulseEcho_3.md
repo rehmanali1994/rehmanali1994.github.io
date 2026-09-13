@@ -2,7 +2,7 @@
 layout: page
 title: Wave-Equation Migration
 description: a project that redirects to another website
-img: assets/img/7.jpg
+img: assets/img/publication_preview/Ali2021FourierSyntheticAperture.gif
 redirect: https://www.wikipedia.org/
 importance: 3
 category: Pulse-Echo Ultrasound
