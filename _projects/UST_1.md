@@ -2,7 +2,7 @@
 layout: page
 title: 3D Volumetric FWI
 description: another without an image
-img:
+img: assets/img/MultiRowRingArray.png
 importance: 3
 category: Full-Waveform Inversion (FWI) for UST/USCT
 ---
