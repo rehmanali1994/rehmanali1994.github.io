@@ -2,7 +2,7 @@
 layout: page
 title: Multiparametric & Elastic FWI
 description: a project with no image
-img:
+img: assets/img/TransmissionVsReflection.png
 importance: 4
 category: Full-Waveform Inversion (FWI) for UST/USCT
 ---
