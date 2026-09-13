@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Aberration Correction
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+description: Aberration correction for pulse-echo ultrasound image formation/beamforming
+img: assets/img/PhantomVSX2.gif
 importance: 2
 category: Pulse-Echo Ultrasound
 giscus_comments: true
