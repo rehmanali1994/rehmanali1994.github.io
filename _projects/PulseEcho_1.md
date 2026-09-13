@@ -9,10 +9,10 @@ related_publications: true
 ---
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/Ali2021LayeredMedia.png" title="Ali2021LayeredMedia" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/LiverLayers.png" title="LiverLayers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -34,10 +34,10 @@ related_publications: true
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/Ali2019Average2LocalSoS.png" title="Ali2019Average2LocalSoS" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/Ali2022DistributedAberrationCorrection.png" title="Ali2022DistributedAberrationCorrection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
