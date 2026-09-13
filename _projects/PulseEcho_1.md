@@ -2,7 +2,7 @@
 layout: page
 title: Sound Speed Estimation
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/SoundSpeedEstimation.png
 importance: 1
 category: Pulse-Echo Ultrasound
 related_publications: true
