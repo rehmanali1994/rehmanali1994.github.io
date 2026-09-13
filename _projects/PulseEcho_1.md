@@ -49,7 +49,7 @@ related_publications: true
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/HandheldUltrasound.png" title="HandheldUltrasound" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
@@ -70,3 +70,20 @@ related_publications: true
 <div class="caption" style="text-align: justify;">
     Iterative Sound Speed Estimation and Aberration Correction Based on Ray Tomography with Aberration Delays {% cite Ali2023IMPACT %}.
 </div>
+
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/SoundSpeedEstimation.png" title="SoundSpeedEstimation" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/Ali2026DifferentiableRTM.gif" title="Ali2026DifferentiableRTM" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Full-Wave Sound Speed Estimation and Aberration Correction Using Image-Difference WEMVA {% cite Ali2026DifferentiableRTM %}.
+</div>
+
+
+
