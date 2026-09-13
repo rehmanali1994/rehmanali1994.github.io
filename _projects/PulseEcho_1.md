@@ -45,3 +45,17 @@ related_publications: true
     Generalized Distributed Local Sound Speed Estimation in Layered Media.  I generalized the relationship between the average focusing sound speed to a point and the local profile of sound speed in the medium to account for all paths to a point {% cite Ali2019Average2LocalSoS %}.  However, as later shown in {% cite Ali2022DistributedAberrationCorrection %}, these simplifications in layered media quickly break down as lateral variations in sound speed increase.  
 </div>
 
+
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/HandheldUltrasound.png" title="HandheldUltrasound" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/RayModeling.png" title="RayModeling" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Ray-Based Modeling of Aberration Delays in Ultrasound Beamforming. 
+</div>
