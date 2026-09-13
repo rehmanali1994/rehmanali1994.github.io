@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multiparametric/Elastic FWI
+title: Multiparametric & Elastic FWI
 description: a project with no image
 img:
 importance: 4
