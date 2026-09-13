@@ -13,7 +13,7 @@ category: Full-Waveform Inversion (FWI) for UST/USCT
         {% include figure.liquid loading="eager" path="assets/img/TransmissionVsReflection.png" title="TransmissionVsReflection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption" style="text-align: justify;>
     Transmission (Forward Scatter) vs Reflection (Backscatter) in UST/USCT.
 </div>
 
