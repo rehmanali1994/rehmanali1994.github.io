@@ -12,6 +12,21 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/kWave_BreastCT.gif" title="kWave_BreastCT" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/kWave_BreastMRI.gif" title="kWave_BreastMRI" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    FWI Reconstruction of Sound Speed and Attenuation in Simulations {% cite Ali2024_BlockLU_2DFWI %}. 
+</div>
+
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/VSX_YezitronixPhantom1.gif" title="VSX_YezitronixPhantom1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
