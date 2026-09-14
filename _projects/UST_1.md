@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/MultiRowRingArray.png" title="MultiRowRingArray" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -23,7 +23,7 @@ related_publications: true
 
 
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2025_3DFWI.png" title="Ali2025_3DFWI" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -34,7 +34,7 @@ related_publications: true
 
 
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/HelmholtzMatrixBlocks.png" title="HelmholtzMatrixBlocks" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -45,7 +45,7 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/HelmholtzMatrixApplyLU.png" title="HelmholtzMatrixApplyLU" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024OneWayDecomposition.png" title="Ali2024OneWayDecomposition" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -57,7 +57,7 @@ related_publications: true
 
 
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/OneWayLU.png" title="OneWayLU" class="img-fluid rounded z-depth-1" %}
     </div>
