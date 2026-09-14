@@ -24,11 +24,11 @@ related_publications: true
 
 
 <div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2025_3DFWI.png" title="Ali2025_3DFWI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption" style="text-align: justify;">
     Comparison of 2D slicewise FWI {% cite Ali2024_BlockLU_2DFWI %} to 3D FWI with simulated multi-row ring array {% cite Ali2025_3DFWI %}. Cylindrical wave transmits from a multi-row ring-array (32 rows; 256 elements per row; 22 cm diameter; 2.4 mm between rows) were simulated in three different numerical breast phantoms. Orthographic slice views of the reconstructed volumes intersect at suspicious high sound speed masses in each phantom (cancers in phantoms 1 and 2, and dense breast tissue in phantom 3). Each sound speed images is displayed in grayscale from 1400 to 1600 m/s: (Left Column) ground-truth sound speed image; (Middle Column) volume reconstructed using 2D slicewise FWI; (Right Column) volume reconstructed using 3D FWI.
 </div>
 
