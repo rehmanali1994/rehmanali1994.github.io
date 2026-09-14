@@ -81,21 +81,14 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Subsurface-Offset WEMVA {% cite Ali2026WEMVA %} for Full-Wave Sound Speed Estimation and Aberration Correction in k-Wave Simulations of the Aberrating Abdominal Wall.
+    WEMVA for Sound Speed Estimation and Aberration Correction in Simulations of the Abdominal Wall {% cite Ali2026WEMVA %}.
 </div>
 
 
 
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Rat10_Acq3.gif" title="Rat10_Acq3" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/SuperficialLayers.gif" title="SuperficialLayers" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Rat11_Acq2.gif" title="Rat11_Acq2" class="img-fluid rounded z-depth-1" %}
@@ -104,6 +97,14 @@ related_publications: true
         {% include figure.liquid path="assets/img/RatAbdomenL12-3v.gif" title="RatAbdomenL12-3v" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Rat10_Acq3.gif" title="Rat10_Acq3" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/SuperficialLayers.gif" title="SuperficialLayers" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="caption" style="text-align: justify;">
-    Subsurface-Offset WEMVA {% cite Ali2026WEMVA %} for Full-Wave Sound Speed Estimation and Aberration Correction in the Abdomen of Obese Zucker Rats and a Healthy Human Volunteer.
+    WEMVA for Sound Speed Estimation and Aberration Correction in the Abdomen of Obese Zucker Rats and a Healthy Human Subject {% cite Ali2026WEMVA %}.
 </div>
