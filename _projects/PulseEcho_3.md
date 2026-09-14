@@ -17,7 +17,7 @@ related_publications: true
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/FieldII_TimeDomain.gif" title="FieldII_TimeDomain" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/FieldII_TimeDomain.gif" title="FieldII_TimeDomain" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
@@ -29,10 +29,10 @@ related_publications: true
 
 <div class="row" justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/FocusedTxSyntheticAperture.png" title="FocusedTxSyntheticAperture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Siemens5C1_TimeDomain.gif" title="Siemens5C1_TimeDomain" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2021FourierSyntheticAperture.gif" title="Ali2021FourierSyntheticAperture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/FocusedTxSyntheticAperture.png" title="FocusedTxSyntheticAperture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
@@ -44,11 +44,11 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/pdf/Ali2026FourierBeamforming.pdf" title="Ali2026FourierBeamforming" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Ali2026FourierBeamforming_Poster.png" title="Ali2026FourierBeamforming_Poster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Fast Fourier Beamforming for Arbitrary Ultrasound Imaging Sequences Based on a K-Space Implementation of Reverse-Time Migration {% cite Ali2026FourierBeamforming %}
+    Fast Fourier Beamforming for Arbitrary Ultrasound Imaging Sequences Based on a K-Space Implementation of Reverse-Time Migration {% cite Ali2026FourierBeamforming %}.
 </div>
 
 
