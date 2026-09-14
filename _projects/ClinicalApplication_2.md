@@ -62,7 +62,7 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/TranscranialExperiments.png" title="TranscranialExperiments" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/TranscranialExperimentResults.png" title="TranscranialExperimentResults" class="img-fluid rounded z-depth-1" %}
     </div>
