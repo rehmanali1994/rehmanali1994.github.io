@@ -14,14 +14,7 @@ category: Pulse-Echo Ultrasound
 
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Map2.gif" title="Map2" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Map2.gif" title="Map5" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/PhantomVSX2.gif" title="PhantomVSX2" class="img-fluid rounded z-depth-1" %}
