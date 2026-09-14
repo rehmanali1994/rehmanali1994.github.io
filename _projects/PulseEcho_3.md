@@ -3,9 +3,9 @@ layout: page
 title: Wave-Equation Migration
 description: Reverse-Time Migration, Fourier/Stolt Mapping, and Frequency-Domain Beamforming
 img: assets/img/Siemens5C1_TimeDomain.gif
-redirect: https://www.wikipedia.org/
 importance: 3
 category: Pulse-Echo Ultrasound
+related_publications: true
 ---
 
 Every project has a beautiful feature showcase page.
