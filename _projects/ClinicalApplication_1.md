@@ -45,3 +45,40 @@ related_publications: true
 <div class="caption" style="text-align: justify;">
     Screening to Diagnosis.  In each case, resolution of FWI sound speed increases with frequency but may requires longer compute times to confirm suspected cancers. 
 </div>
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/USTvsFWI.png" title="USTvsFWI" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    UST/USCT FWI Sound Speed Reconstruction vs. Contrast-Enhanced (T1-Weighted) MRI for Breast Imaging.
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Mammogram.png" title="Mammogram" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/BreastImagingSequences.png" title="BreastImagingSequences" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Mammographically Occult Breast Cancer. (Left) Mammography. (Right) Cancer visualized on B-mode reflectivity, FWI sound speed, and FWI attenuation.
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/USTvsMammogram.png" title="USTvsMammogram" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Three Case Examples of Breast Cancers Detected using UST.  (Top Row) Fibroadenoma.  (Middle Row) Invasive Ductal Carcinoma Visible on Mammogram.  (Bottom
+Row) Invasive Ductal Carcinoma Occult on Mammogram. (Left Column) Mammography.  (Middle Column) FWI sound speed. (Right Column) B-mode reflection.
+</div>
