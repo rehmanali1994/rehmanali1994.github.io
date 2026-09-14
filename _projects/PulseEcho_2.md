@@ -25,6 +25,21 @@ category: Pulse-Echo Ultrasound
 
 
 <div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IterativeAberrationCorrection.png" title="IterativeAberrationCorrection" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2023IMPACT.png" title="Ali2023IMPACT" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Iterative Sound Speed Estimation and Aberration Correction Based on Ray Tomography with Aberration Delays {% cite Ali2023IterativeAberrationCorrection Ali2023DistributedAberrationCorrection %}.  On the right, I demonstrate the velocity-depth ambiguity that arises when the sound speed estimate is no longer constrained to layered media {% cite Ali2023IMPACT %}.  In practice, different sound speed estimates can provide similar improvements in the focusing of the image with the only difference being the depth placements of those imaging targets.  In an effort to mitigate the nonlinearity associated with the velocity depth ambiguity that locks the solution to the false minimum closest to the initial sound speed guess, we began to implement an adaptive imaging grid that follows the image targets as the sound speed estimate changes {% cite Ali2026TargetFollowingLagrangianApproach %}.  However, the fundamental ill-posedness and ill-conditioning of the inverse problem (also associated with the velocity-depth ambiguity) remain.
+</div>
+
+
+
+
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/SoundSpeedEstimation.png" title="SoundSpeedEstimation" class="img-fluid rounded z-depth-1" %}
     </div>
