@@ -50,7 +50,7 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024OneWayDecomposition.png" title="Ali2024OneWayDecomposition" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     Block LU Factorization of the Helmholtz Equation and Its Interpretation as a Cascade of One-Way Sweeps {% cite Ali2024_BlockLU_2DFWI %}.
 </div>
 
