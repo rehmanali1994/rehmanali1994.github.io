@@ -18,7 +18,7 @@ category: Pulse-Echo Ultrasound
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Distributed Aberration Correction in Layered Media {% cite Ali2022DistributedAberrationCorrection %}.  As a foundation for aberration correction in layered media and beyond, I also contributed to a novel synthetic-aperture beamforming framework known as Retrospective Encoding For Conventional Ultrasound Sequences (REFoCUS) that recovers multistatic synthetic aperture channel data from arbitrary transmit sequences and enables complete transmit-and-receive aberration corrections {% cite Ali2019REFoCUS %}. 
+    Distributed Aberration Correction in Layered Media {% cite Ali2022DistributedAberrationCorrection %}.  (Right) As a foundation for aberration correction in layered media and beyond, I also contributed to a novel synthetic-aperture beamforming framework known as Retrospective Encoding For Conventional Ultrasound Sequences (REFoCUS) that recovers multistatic synthetic aperture channel data from arbitrary transmit sequences and enables complete transmit-and-receive aberration corrections {% cite Ali2019REFoCUS %}. 
 </div>
 
 
