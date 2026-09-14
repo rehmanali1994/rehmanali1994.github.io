@@ -36,21 +36,22 @@ related_publications: true
 
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/RayModeling.png" title="RayModeling" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/Ali2026MidFieldPhaseScreenModel.png" title="Ali2026MidFieldPhaseScreenModel" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/RayModeling.png" title="RayModeling" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/Ali2023AberrationCorrectionReview.png" title="Ali2023AberrationCorrectionReview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Ray-Based Modeling of Aberration Delays in Ultrasound Beamforming {% cite Ali2023AberrationCorrectionReview %}.  (Top) Time-of-flight based on line integrals over slowness (reciprocal of sound speed).  (Bottom Left) Simplified modeling of time-of-flight based on multiple mid-field phase screens {% cite Ali2026MidFieldPhaseScreenModel %}.  (Bottom Right) Refraction-based modeling of time-of-flight based on the eikonal equation.
+    Ray-Based Modeling of Aberration Delays in Ultrasound Beamforming {% cite Ali2023AberrationCorrectionReview %}.  (Top-Left) Time-of-flight based on line integrals over slowness (reciprocal of sound speed).  (Top Right) Simplified modeling of time-of-flight based on multiple mid-field phase screens {% cite Ali2026MidFieldPhaseScreenModel %}.  (Bottom) Refraction-based modeling of time-of-flight based on the eikonal equation.
 </div>
 
 
