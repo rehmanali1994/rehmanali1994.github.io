@@ -27,7 +27,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Initial Phantom Experiments of Ultrasound Computed Tomography Through the Skull {% cite Mitcham2024ImagingStroke %}.
+    Initial Phantom Experiments of Ultrasound Computed Tomography Through the Skull {% cite Mitcham2024ImagingStroke Marty2024ElasticBoneCharacterization %}.
 </div>
 
 
@@ -51,7 +51,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Whole-Brain and Transcranial Ultrasound Computed Tomography Based on Frequency Differencing and Full-Waveform Inversion {% cite Mitcham2025TranscranialUST Marty2024ElasticBoneCharacterization Ali2025FrequencyDifferencing %}.
+    Whole-Brain and Transcranial Ultrasound Computed Tomography Based on Frequency Differencing and Full-Waveform Inversion {% cite Mitcham2025TranscranialUST Ali2025FrequencyDifferencing %}.
 </div>
 
 
