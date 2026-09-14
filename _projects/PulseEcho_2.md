@@ -11,7 +11,7 @@ category: Pulse-Echo Ultrasound
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/publication_preview/Ali2019Average2LocalSoS.png" title="Ali2019Average2LocalSoS" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/publication_preview/Ali2022DistributedAberrationCorrection.png" title="Ali2022DistributedAberrationCorrection" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/Ali2019REFoCUS.png" title="Ali2019REFoCUS" class="img-fluid rounded z-depth-1" %}
