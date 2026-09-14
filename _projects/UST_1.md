@@ -51,9 +51,23 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Block LU Factorization of the Helmholtz Equation and Its Interpretation as a Cascade of One-Way Sweeps {% cite Ali2024OneWayDecomposition %}.
+    Block LU Factorization of the Helmholtz Equation and Its Interpretation as a Cascade of One-Way Sweeps {% cite Ali2024_BlockLU_2DFWI %}.
 </div>
 
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/OneWayLU.png" title="OneWayLU" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/OneWayLUvsBlockLU.png" title="OneWayLUvsBlockLU" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    One-Way Wave Equations as the PDE-Equivalent of the LU Decomposition {% cite Ali2024OneWayDecomposition %}.  Phase-shift-plus-interpolation (PSPI) is an extension of the Fourier split-step method used to implement the one-way wave equations more accurately.  This numerical method could lead to a much more memory and computation efficient implementation of 3D FWI.
+</div>
 
 
 
