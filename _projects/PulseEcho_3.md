@@ -36,7 +36,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Curvilinear Extension of the Angular Spectrum Method Used in Reverse-Time Migration and its Application to Abdominal (Liver + Kidney) Imaging {% cite Ali2022CurvilinearAngularSpectrumMethod %}.
+    Curvilinear Extension of the Angular Spectrum Method in Reverse-Time Migration and its Application to Liver + Kidney Imaging {% cite Ali2022CurvilinearAngularSpectrumMethod %}.
 </div>
 
 
