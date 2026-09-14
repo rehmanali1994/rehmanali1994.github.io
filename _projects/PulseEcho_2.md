@@ -10,15 +10,26 @@ category: Pulse-Echo Ultrasound
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/publication_preview/Ali2022DistributedAberrationCorrection.png" title="Ali2022DistributedAberrationCorrection" class="img-fluid rounded z-depth-1" %}
-    </div>
     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/Ali2019REFoCUS.png" title="Ali2019REFoCUS" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/Ali2023OptimalApodization.png" title="Ali2023OptimalApodization" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Beamforming Foundations of Aberration Correction.  (Left) As a foundation for aberration correction, I contributed to a novel synthetic-aperture beamforming framework known as Retrospective Encoding For Conventional Ultrasound Sequences (REFoCUS) that recovers multistatic synthetic aperture channel data from arbitrary transmit sequences and enables complete transmit-and-receive aberration corrections {% cite Ali2019REFoCUS %}.  (Right) I also developed the optimal transmit apodization to maximize the short-lag spatial coherence of receive signals for aberration delay estimation via nearest-neighbor cross-correlation {% cite Ali2023OptimalApodization %}.
+</div>
+
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/Ali2019REFoCUS.png" title="Ali2019REFoCUS" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Distributed Aberration Correction in Layered Media {% cite Ali2022DistributedAberrationCorrection %}.  (Right) As a foundation for aberration correction in layered media and beyond, I also contributed to a novel synthetic-aperture beamforming framework known as Retrospective Encoding For Conventional Ultrasound Sequences (REFoCUS) that recovers multistatic synthetic aperture channel data from arbitrary transmit sequences and enables complete transmit-and-receive aberration corrections {% cite Ali2019REFoCUS %}. 
+    Distributed Aberration Correction in Layered Media {% cite Ali2022DistributedAberrationCorrection %}.  As lateral variations in sound speed increase, aberration correction requires moving beyond the layered medium model towards ray-based modeling of aberrations. 
 </div>
 
 
