@@ -24,9 +24,6 @@ category: Pulse-Echo Ultrasound
 
 
 
-
-
-
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/SoundSpeedEstimation.png" title="SoundSpeedEstimation" class="img-fluid rounded z-depth-1" %}
@@ -38,6 +35,8 @@ category: Pulse-Echo Ultrasound
 <div class="caption" style="text-align: justify;">
     Full-Wave Sound Speed Estimation and Aberration Correction Using Image-Difference WEMVA {% cite Ali2026DifferentiableRTM %}.
 </div>
+
+
 
 
 <div class="row justify-content-sm-center">
@@ -67,3 +66,6 @@ category: Pulse-Echo Ultrasound
 <div class="caption" style="text-align: justify;">
     Full-Wave Sound Speed Estimation and Aberration Correction Using Subsurface-Offset WEMVA {% cite Ali2026WEMVA %}.
 </div>
+
+
+
