@@ -10,6 +10,8 @@ related_publications: true
 
 
 
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024FrequencyDifferencing.png" title="Ali2024FrequencyDifferencing" class="img-fluid rounded z-depth-1" %}
@@ -19,7 +21,23 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Whole-Brain and Transcranial Ultrasound Computed Tomography Based on Frequency Differencing and Full-Waveform Inversion.
+    Whole-Brain and Transcranial Ultrasound Computed Tomography Based on Frequency Differencing and Full-Waveform Inversion {% cite Ali2024FrequencyDifferencing %}.
 </div>
+
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/NumericalBrainPhantom.png" title="NumericalBrainPhantom" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/NumericalBrainPhantomResults.png" title="NumericalBrainPhantomResults" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX %}.
+</div>
+
 
 
