@@ -25,7 +25,7 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Ali2025_3DFWI.png" title="Ali2025_3DFWI" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2025_3DFWI.png" title="Ali2025_3DFWI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
