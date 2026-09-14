@@ -48,7 +48,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Fast Fourier Beamforming for Arbitrary Ultrasound Imaging Sequences Based on a K-Space Implementation of Reverse-Time Migration {% cite Ali2026FourierBeamforming %}.
+    Stolt Mapping for Fast Fourier Beamforming with Arbitrary Transmit Sequences Based on Reverse-Time Migration {% cite Ali2026FourierBeamforming %}.
 </div>
 
 
