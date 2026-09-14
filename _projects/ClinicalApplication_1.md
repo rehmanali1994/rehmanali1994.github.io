@@ -68,7 +68,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Mammographically Occult Breast Cancer. (Left) Mammography. (Right) Cancer visualized on B-mode reflectivity, FWI sound speed, and FWI attenuation.
+    Mammographically Occult Breast Cancer. (Left) Mammography. (Right) Cancer visualized on B-mode, sound speed, and attenuation.
 </div>
 
 
