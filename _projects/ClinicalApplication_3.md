@@ -27,8 +27,31 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/RatLayers.png" title="RatLayers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/Telichko2022RatStudy.png" title="Telichko2022RatStudy" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/RatLiverStudy.png" title="RatLiverStudy" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="caption" style="text-align: justify;">
     Example of Liver Imaging in Rats with Average and Local Sound Speed Estimates {% cite Ali2021LayeredMedia %}. (Top) First rat shown is a female obese Zucker rat with a steatosis grade of 1. The local sound speed in the liver was measured to be 1562.8 m/s. The sound speed measured in the excised liver sample was 1557 m/s. (Bottom) Second rat is a female obese Zucker rat with a steatosis grade of 3. The local sound speed in the liver was measured to be 1522.4 m/s. The sound speed measured in the excised liver sample was 1511 m/s.  See the complete study on liver steatosis in obese Zucker rats {% cite Telichko2022RatStudy %}.
 </div>
+
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Siemens5C1_TimeDomain.gif" title="Siemens5C1_TimeDomain" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/FocusedTxSyntheticAperture.png" title="FocusedTxSyntheticAperture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Curvilinear Extension of the Angular Spectrum Method in Reverse-Time Migration and its Application to Liver + Kidney Imaging {% cite Ali2022CurvilinearAngularSpectrumMethod %}.
+</div>
+
 
 
