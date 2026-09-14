@@ -10,14 +10,35 @@ related_publications: true
 
 
 
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TranscranialPhantom1.png" title="TranscranialPhantom1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TranscranialPhantomResult1.png" title="TranscranialPhantomResult1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TranscranialPhantom2.png" title="TranscranialPhantom1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TranscranialPhantomResult2.png" title="TranscranialPhantomResult1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Initial Phantom Experiments of Ultrasound Computed Tomography Through the Skull {% cite Mitcham2024ImagingStroke %}.
+</div>
+
+
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/MacaqueBrainExperiments.png" title="MacaqueBrainExperiments" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/MacaqueBrainResults.png" title="MacaqueBrainResults" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -37,6 +58,23 @@ related_publications: true
 
 
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TranscranialExperiments.png" title="TranscranialExperiments" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TranscranialExperimentResults.png" title="TranscranialExperimentResults" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Ex-Vivo Human Cadaver Whole-Brain and Transcranial Ultrasound Computed Tomography  {% cite Owolabi2026LowFrequencyExtrapolation Marini2026TranscranialUST %}.
+</div>
+
+
+
+
+<div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/NumericalBrainPhantom.png" title="NumericalBrainPhantom" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -46,23 +84,6 @@ related_publications: true
 </div>
 <div class="caption" style="text-align: justify;">
     Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in a Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST %}.
-</div>
-
-
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/TranscranialExperiments.png" title="TranscranialExperiments" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/TranscranialExperimentResults.png" title="TranscranialExperimentResults" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption" style="text-align: justify;">
-    Ex-Vivo Human Cadaver Whole-Brain and Transcranial Ultrasound Computed Tomography  {% cite Owolabi2026LowFrequencyExtrapolation Marini2026TranscranialUST %}.
 </div>
 
 
