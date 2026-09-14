@@ -8,6 +8,7 @@ category: Pulse-Echo Ultrasound
 related_publications: true
 ---
 
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/Ali2021LayeredMedia.png" title="Ali2021LayeredMedia" class="img-fluid rounded z-depth-1" %}
@@ -89,7 +90,14 @@ related_publications: true
 </div>
 
 
-
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Map2.gif" title="Map2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Map5.gif" title="Map5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/SuperficialLayers.gif" title="SuperficialLayers" class="img-fluid rounded z-depth-1" %}
