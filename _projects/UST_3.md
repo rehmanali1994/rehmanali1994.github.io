@@ -12,11 +12,32 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/VSX_YezitronixPhantom1.gif" title="VSX_YezitronixPhantom1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/VSX_YezitronixPhantom2.gif" title="VSX_YezitronixPhantom2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    FWI Reconstruction of Sound Speed and Attenuation in Phantoms {% cite Ali2024_BlockLU_2DFWI %}. 
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/BenignCyst.gif" title="BenignCyst" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024_BlockLU_2DFWI.gif" title="Ali2024_BlockLU_2DFWI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    FWI Reconstruction of Sound Speed and Attenuation in the Breast {% cite Ali2024_BlockLU_2DFWI %}.
+    FWI Reconstruction of Sound Speed and Attenuation in the Breast {% cite Ali2024_BlockLU_2DFWI %}. (Top) Benign Cyst. (Bottom) Malignancy.
 </div>
 
 
