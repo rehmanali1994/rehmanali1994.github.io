@@ -17,7 +17,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Early Layered Medium Model for Sound Speed Estimation.  During my PhD, I developed one of the first quantitative methods to estimate sound speed directly from pulse-echo data. The key idea is to use the beamforming sound speed to measure the average sound speed in the tissue.  In layered media, the profile of the average sound speed that best focuses the signal at each depth can be inverted to recover the local depth-wise profile {% cite Ali2021LayeredMedia %}.  This model was very useful for quantifying sound speed inside the liver to help diagnose fatty liver disease.  
+    Early Layered Medium Model for Sound Speed Estimation.  During my PhD, I developed one of the first quantitative methods to estimate sound speed directly from pulse-echo data. The key idea is to use the beamforming sound speed to measure the average sound speed in the tissue.  In layered media, the profile of the average sound speed that best focuses the signal at each depth can be inverted to recover the local depth-wise profile {% cite Ali2021LayeredMedia %}.  This layered-medium approach has also been tried with plane waves {% cite Ali2020PlaneWaveSoS %} and with common midpoint gathers {% cite Ali2020CMP Brevett2022CMP %}.  This model was very useful for quantifying sound speed inside the liver to help diagnose fatty liver disease.  
 </div>
 
 
