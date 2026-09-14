@@ -5,7 +5,6 @@ description: Aberration correction for pulse-echo ultrasound imaging and beamfor
 img: assets/img/PhantomVSX2.gif
 importance: 2
 category: Pulse-Echo Ultrasound
-giscus_comments: true
 ---
 
 
