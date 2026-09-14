@@ -81,7 +81,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    WEMVA for Sound Speed Estimation and Aberration Correction in Simulations of the Abdominal Wall {% cite Ali2026WEMVA %}.
+    Subsurface-Offset WEMVA for Sound Speed Estimation and Aberration Correction in Simulations of the Abdominal Wall {% cite Ali2026WEMVA %}.
 </div>
 
 
@@ -106,5 +106,5 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    WEMVA for Sound Speed Estimation and Aberration Correction in the Abdomen of Obese Zucker Rats and a Healthy Human Subject {% cite Ali2026WEMVA %}.
+    Subsurface-Offset WEMVA in the Abdomen of Obese Zucker Rats and a Healthy Human Subject {% cite Ali2026WEMVA %}.
 </div>
