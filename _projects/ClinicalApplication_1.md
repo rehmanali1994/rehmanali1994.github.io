@@ -43,7 +43,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Screening to Diagnosis.  In each case, resolution of FWI sound speed increases with frequency but may requires longer compute times to confirm suspected cancers. 
+    Screening to Diagnosis.  In each case, the spatial resolution of the FWI sound speed reconstruction increases with frequency but may requires longer compute times to confirm suspected cancers. 
 </div>
 
 
