@@ -45,7 +45,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX %}.
+    Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in a Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST %}.
 </div>
 
 
