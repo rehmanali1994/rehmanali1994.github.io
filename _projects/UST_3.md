@@ -69,7 +69,14 @@ related_publications: true
 
 
 
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ElasticWaveEquation.png" title="ElasticWaveEquation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    From the Acoustic to the Elastic Wave Equation
+</div>
 
 
 
