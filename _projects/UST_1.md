@@ -9,6 +9,21 @@ related_publications: true
 ---
 
 
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ElevationFocusing.png" title="ElevationFocusing" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Current 2D slicewise FWI imaging is enabled by an elevation-focused ring-array transducer.
+</div>
+
+
+
+
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/MultiRowRingArray.png" title="MultiRowRingArray" class="img-fluid rounded z-depth-1" %}
