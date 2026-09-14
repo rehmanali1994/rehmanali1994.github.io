@@ -21,7 +21,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Reverse-Time Migration based on the Time-Domain Cross-Correlation of Transmitted and Backpropagated Receive Wavefields {% cite Ali2020WavefieldCorrelation %}.  This wave-propagation-based imaging framework for pulse-echo ultrasound generalizes across imaging geometries and transmit schemes.  (Top) Focused transmission from a linear array {% cite Ali2021FourierSyntheticAperture %}.  (Bottom) Single-element diverging-wave transmit from a curvilinear array {% cite Ali2022CurvilinearAngularSpectrumMethod %}.
+    Reverse-Time Migration based on the Time-Domain Cross-Correlation of Transmitted and Backpropagated Receive Wavefields {% cite Ali2020WavefieldCorrelation %}.  This wave-propagation-based imaging framework for pulse-echo ultrasound generalizes across imaging geometries and transmit schemes.  Additionally, a generalized Stolt mapping for fast Fourier beamforming with arbitrary transmit sequences has been derived based on reverse-time migration {% cite Ali2026FourierBeamforming %}.  (Top) Focused transmission from a linear array {% cite Ali2021FourierSyntheticAperture %}.  (Bottom) Single-element diverging-wave transmit from a curvilinear array {% cite Ali2022CurvilinearAngularSpectrumMethod %}.
 </div>
 
 
@@ -38,19 +38,6 @@ related_publications: true
 <div class="caption" style="text-align: justify;">
     Curvilinear Extension of the Angular Spectrum Method in Reverse-Time Migration and its Application to Liver + Kidney Imaging {% cite Ali2022CurvilinearAngularSpectrumMethod %}.
 </div>
-
-
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Ali2026FourierBeamforming_Poster.png" title="Ali2026FourierBeamforming_Poster" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption" style="text-align: justify;">
-    Stolt Mapping for Fast Fourier Beamforming with Arbitrary Transmit Sequences Based on Reverse-Time Migration {% cite Ali2026FourierBeamforming %}.
-</div>
-
 
 
 
