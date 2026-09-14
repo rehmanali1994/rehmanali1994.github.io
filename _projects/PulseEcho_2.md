@@ -9,10 +9,35 @@ category: Pulse-Echo Ultrasound
 
 
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/Ali2019Average2LocalSoS.png" title="Ali2019Average2LocalSoS" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/Ali2019REFoCUS.png" title="Ali2019REFoCUS" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Distributed Aberration Correction in Layered Media {% cite Ali2022DistributedAberrationCorrection %}.  As a foundation for aberration correction in layered media and beyond, I also contributed to a novel synthetic-aperture beamforming framework known as Retrospective Encoding For Conventional Ultrasound Sequences (REFoCUS) that recovers multistatic synthetic aperture channel data from arbitrary transmit sequences and enables complete transmit-and-receive aberration corrections {% cite Ali2019REFoCUS %}. 
+</div>
 
 
 
 
+
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/SoundSpeedEstimation.png" title="SoundSpeedEstimation" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/Ali2026DifferentiableRTM.gif" title="Ali2026DifferentiableRTM" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Full-Wave Sound Speed Estimation and Aberration Correction Using Image-Difference WEMVA {% cite Ali2026DifferentiableRTM %}.
+</div>
 
 
 <div class="row justify-content-sm-center">
