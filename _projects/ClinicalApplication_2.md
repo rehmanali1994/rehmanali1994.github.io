@@ -68,7 +68,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Ex-Vivo Human Cadaver Whole-Brain and Transcranial Ultrasound Computed Tomography  {% cite Owolabi2026LowFrequencyExtrapolation Marini2026TranscranialUST %}.
+    Ex-Vivo Human Cadaver Whole-Brain and Transcranial Ultrasound Computed Tomography {% cite Owolabi2026LowFrequencyExtrapolation Marini2026TranscranialUST %}.
 </div>
 
 
