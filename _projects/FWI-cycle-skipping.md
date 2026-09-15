@@ -149,4 +149,4 @@ Other approaches include learned low-frequency extrapolation and learning the op
     Other Proposed Cycle-Skipping Robust Formulations of FWI: (1) Optimal Transport, (2) Learned Low-Frequency Extrapolation, and (3) Learning the Optimal Transformation of the Ultrasound Signal.
 </div>
 
-<b>
+<br>
