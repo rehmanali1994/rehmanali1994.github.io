@@ -26,6 +26,8 @@ Conventional ultrasound beamforming relies on geometric assumptions about how ac
     Reverse-Time Migration based on the Time-Domain Cross-Correlation of Transmitted and Backpropagated Receive Wavefields.  (Top) Focused transmission from a linear array {% cite Ali2021FourierSyntheticAperture %}.  (Bottom) Single-element diverging-wave transmit from a curvilinear array {% cite Ali2022CurvilinearAngularSpectrumMethod %}.
 </div>
 
+<br>
+
 ### Fourier-Domain RTM and its Adaptation to Curvilinear Arrays
 
 Although time-domain RTM provides a general formulation, time-domain wave propagation over the imaging domain can be computation and memory intensive.  Therefore, I developed Fourier-domain formulations that accelerate RTM by performing propagation in the spatial-frequency domain {% cite Ali2021FourierSyntheticAperture %}.  For linear-array imaging, Fourier-domain propagation leads naturally to synthetic-aperture imaging methods that can reconstruct images using frequency-domain operations. The same framework can be extended to different transmit configurations, including focused transmissions, plane-wave and diverging-wave transmissions.
@@ -45,6 +47,8 @@ For curvilinear arrays, the geometry of the transducer must be incorporated into
 <div class="caption">
     Curvilinear Extension of the Angular Spectrum Method in RTM and its Application to Liver + Kidney Imaging {% cite Ali2022CurvilinearAngularSpectrumMethod %}.
 </div>
+
+<br>
 
 ### Differentiable RTM: Wave Equation Migration Velocity Analysis (WEMVA)
 
