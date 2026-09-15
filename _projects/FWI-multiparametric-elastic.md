@@ -37,7 +37,7 @@ The situation is different for reflected ultrasound.  Backscattered signals aris
         {% include figure.liquid loading="eager" path="assets/img/kWave_BreastMRI.gif" title="kWave_BreastMRI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     FWI Reconstruction of Sound Speed and Attenuation in UST/USCT Simulations {% cite Ali2024_BlockLU_2DFWI %}. 
 </div>
 
@@ -53,7 +53,7 @@ As a first step toward multiparametric reconstruction, I extended FWI for transm
         {% include figure.liquid loading="eager" path="assets/img/VSX_YezitronixPhantom2.gif" title="VSX_YezitronixPhantom2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     FWI Reconstruction of Sound Speed and Attenuation in Phantoms {% cite Ali2024_BlockLU_2DFWI %}. 
 </div>
 
@@ -71,7 +71,7 @@ The ability to reconstruct multiple acoustic properties is particularly relevant
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024_BlockLU_2DFWI.gif" title="Ali2024_BlockLU_2DFWI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     FWI Reconstruction of Sound Speed and Attenuation in the Breast {% cite Ali2024_BlockLU_2DFWI %}. (Top) Benign Cyst. (Bottom) Malignancy.
 </div>
 
