@@ -33,13 +33,7 @@ The standard way to reduce cycle skipping is to begin the inversion at low frequ
 
 ### Frequency-Difference FWI (FD-FWI)
 
-To overcome the lack of low-frequency measurements, I developed a frequency-differencing approach that synthesizes low-frequency signals from the available high-frequency data.  The key observation is that two signals at frequencies (f_1) and (f_2) can be combined to produce a signal at their frequency difference,
-
-[
-\Delta f = |f_1-f_2|.
-]
-
-When (f_1) and (f_2) are close together, (\Delta f) can be substantially lower than either measured frequency. T hese synthesized low-frequency signals can then be used to initialize FWI before progressively returning to the original measured frequencies.  This approach effectively creates the low-frequency information needed to avoid cycle skipping without requiring the transducer to operate outside its normal bandwidth.  In simulations and phantom experiments, frequency differencing produced substantially improved reconstructions compared with starting FWI directly from a homogeneous sound-speed model.  
+To overcome the lack of low-frequency measurements, I developed a frequency-differencing approach that synthesizes low-frequency signals from the available high-frequency data.  The key observation is that signals at two different frequencies can be combined to produce a signal at their frequency difference (or beat frequency).  When the two frequencies are close together, the difference frequency can be substantially lower than either measured frequency.These synthesized low-frequency signals can then be used to initialize FWI before progressively returning to the original measured frequencies.  This approach effectively creates the low-frequency information needed to avoid cycle skipping without requiring the transducer to operate outside its normal bandwidth.  In simulations and phantom experiments, frequency differencing produced substantially improved reconstructions compared with starting FWI directly from a homogeneous sound-speed model.  
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -101,8 +95,6 @@ A particularly useful application of frequency differencing is to use the synthe
 
 Frequency differencing is one way to overcome the lack of low-frequency information, but it is not the only possible approach.  I have also explored low-frequency extrapolation using a least-squares autoregressive model, which estimates missing low-frequency content directly from the measured signal spectrum.  The underlying goal is the same: construct a starting model that contains the large-scale structure of the acoustic medium before introducing the higher frequencies responsible for fine spatial detail.
 
-
-
 ### Frequency-Difference FWI (FD-FWI) vs. Adaptive Waveform Inversion (AWI)
 
 <div class="row justify-content-sm-center">
@@ -141,7 +133,6 @@ Here FD-FWI and AWI are compared with conventional FWI in numerical breast and t
 <div class="caption" style="text-align: justify;">
     Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST Ali2023HomogeneousStartingModelFWI %}.
 </div>
-
 
 ### Alternative and Future Strategies
 
