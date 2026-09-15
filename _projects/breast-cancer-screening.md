@@ -35,7 +35,7 @@ Full-waveform inversion (FWI) reconstructs tissue properties by matching the mea
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024_BlockLU_2DFWI.gif" title="Ali2024_BlockLU_2DFWI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     FWI Reconstruction of Sound Speed and Attenuation in the Breast {% cite Ali2024_BlockLU_2DFWI %}.  (Top) Benign Cyst.  (Bottom) Malignancy.
 </div>
 
@@ -61,7 +61,7 @@ The quantitative nature of FWI makes USCT particularly interesting as a potentia
         {% include figure.liquid loading="eager" path="assets/img/USTvsFWI.png" title="USTvsFWI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     UST/USCT FWI Sound Speed Reconstruction vs. Contrast-Enhanced (T1-Weighted) MRI for Breast Imaging.
 </div>
 
@@ -75,7 +75,7 @@ The quantitative nature of FWI makes USCT particularly interesting as a potentia
         {% include figure.liquid loading="eager" path="assets/img/BreastImagingSequences.png" title="BreastImagingSequences" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     Mammographically Occult Breast Cancer. (Left) Mammography. (Right) Cancer visualized on B-mode, sound speed, and attenuation.
 </div>
 
