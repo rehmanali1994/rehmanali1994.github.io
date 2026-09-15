@@ -27,7 +27,7 @@ The situation is different for reflected ultrasound.  Backscattered signals aris
 </div>
 
 
-### Sound Speed and Attenuation Based on Transmission Ultrasound Tomography
+### Sound Speed and Attenuation Based on Transmission Tomography
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -59,7 +59,7 @@ As a first step toward multiparametric reconstruction, I extended FWI for transm
 
 ### [Quantitative Reconstruction in the Breast](https://rehmanali1994.github.io/projects/breast-cancer-screening/)
 
-The ability to reconstruct multiple acoustic properties is particularly relevant to [breast imaging](https://rehmanali1994.github.io/projects/breast-cancer-screening/).  Conventional B-mode ultrasound primarily depicts spatial variations in scattering, while transmission ultrasound provides quantitative information about the acoustic properties along propagation paths.  In the breast, multiparametric FWI can recover both sound speed and attenuation while preserving the spatial localization of lesions and other structures.  The key limitation, however, is that an acoustic model still treats the tissue as a fluid and therefore does not explicitly model shear-wave propagation or the full mechanical response of tissue.
+The ability to reconstruct multiple acoustic properties is particularly relevant to [breast imaging](https://rehmanali1994.github.io/projects/breast-cancer-screening/).  Conventional B-mode ultrasound primarily depicts spatial variations in scattering, while transmission ultrasound provides quantitative information about the acoustic properties along propagation paths.  In the breast, multiparametric FWI can recover both sound speed and attenuation while preserving the spatial localization of lesions and other structures.  The key limitation, however, is that an acoustic model still treats the tissue as a fluid and therefore does not model shear-wave propagation or the full mechanical response of tissue.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -75,7 +75,7 @@ The ability to reconstruct multiple acoustic properties is particularly relevant
     FWI Reconstruction of Sound Speed and Attenuation in the Breast {% cite Ali2024_BlockLU_2DFWI %}. (Top) Benign Cyst. (Bottom) Malignancy.
 </div>
 
-The examples above show in-vivo breast reconstructions differentiating between a benign cyst and and a diagnosed malignancy, demonstrating the potential of FWI to provide diagnostically relevant tissue characterization in addition to anatomical imaging {% cite Ali2024_BlockLU_2DFWI %}.  For example, although the fluid-filled cyst has a higher sound speed than the fat background of the breast, the attenuation is through the same region is low, and the globular morphology of the cyst is indicative of a fluid filled pocket of tissue.  However, the malignancy is branching spiculated mass (indicative of tissue scarring) with both high sound speed and attenuation.
+The examples above show in-vivo breast reconstructions differentiating between a benign cyst and and a diagnosed malignancy, demonstrating the potential of FWI to provide diagnostically relevant tissue characterization in addition to anatomical imaging {% cite Ali2024_BlockLU_2DFWI %}.  For example, although the fluid-filled cyst has a higher sound speed than the fat background of the breast, the attenuation is through the same region is low, and the globular morphology of the cyst is indicative of a fluid filled pocket of tissue.  However, the malignancy is a spiculated mass with branching tissue indicative of tissue scarring that has both high sound speed and attenuation.  This ultimately differentiates the malignancy from the fluid-filled cyst.
 
 ### From the Acoustic to the Fully Elastic Wave Equation
 
@@ -91,6 +91,3 @@ The examples above show in-vivo breast reconstructions differentiating between a
 To recover a more complete description of tissue mechanics, the forward model can be extended from the acoustic wave equation to the fully elastic wave equation.  Elastic propagation introduces additional mechanical parameters and supports both compressional and shear waves.  This provides a path toward reconstructing properties that cannot be represented by an acoustic model alone.  In principle, a fully elastic FWI framework could recover multiple tissue mechanical properties from the way both compressional and shear components propagate, reflect, and interact within the [breast](https://rehmanali1994.github.io/projects/breast-cancer-screening/).  In fact, beyond breast imaging, several diagnostic applications involving bone, particularly [transcranial imaging](https://rehmanali1994.github.io/projects/transcranial-imaging/), ultimately require full-wave elastic modeling at the bone tissue interface {% cite Marty2024ElasticBoneCharacterization %}.  Therefore, the transition from acoustic to elastic FWI therefore represents a broader shift in this work: from estimating individual acoustic parameters to using increasingly complete wave physics to quantitatively characterize tissue.
 
 <b>
-
-
-
