@@ -96,7 +96,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption">
-    Cycle-Skipping-Robust FWI Techniques: Frequency-Difference Full-Waveform Inversion (FD-FWI) vs. Adaptive Waveform Inversion (AWI) {% cite Klaben2026JAX %}.
+    Cycle-Skipping-Robust FWI: Frequency-Difference Full-Waveform Inversion (FD-FWI) vs. Adaptive Waveform Inversion (AWI) {% cite Klaben2026JAX %}.
 </div>
 
 
