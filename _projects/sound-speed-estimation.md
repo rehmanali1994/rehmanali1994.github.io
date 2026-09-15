@@ -8,7 +8,7 @@ category: Pulse-Echo Ultrasound
 related_publications: true
 ---
 
-Accurate knowledge of tissue sound speed is fundamental to ultrasound imaging and has important clinical applications such as [cancer detection](https://rehmanali1994.github.io/projects/breast-cancer-screening/) and [staging of fatty liver disease](https://rehmanali1994.github.io/projects/quantitative-liver-imaging/).  Conventional beamforming typically assumes a fixed sound speed, but the true sound speed varies spatially with tissue composition.  When this assumption is incorrect, the resulting timing errors cause aberration, defocusing, and incorrect spatial localization of structures.  Therefore, sound speed is not only a quantitative biomarker but it can play a fundamental role in ultrasound image quality.
+Accurate knowledge of tissue sound speed is fundamental to ultrasound imaging and has important clinical applications such as [cancer detection](https://rehmanali1994.github.io/projects/breast-cancer-screening/) and [staging of fatty liver disease](https://rehmanali1994.github.io/projects/quantitative-liver-imaging/).  Conventional beamforming typically assumes a fixed sound speed, but the true sound speed varies spatially with tissue composition.  When this assumption is incorrect, the resulting timing errors cause aberration, defocusing, and incorrect spatial localization of structures.  Therefore, sound speed is not only a quantitative biomarker but it can play a fundamental role in ultrasound image quality and is fundamentally intertwined with the topic of [aberration correction](https://rehmanali1994.github.io/projects/aberration-correction/).
 
 ### From Beamforming Sound Speed to Local Sound Speed
 
