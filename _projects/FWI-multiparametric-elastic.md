@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 
-### Multiparametric Imaging with Acoustic FWI
+### Acoustic FWI with Transmission and Reflection Ultrasound
 
 Full-waveform inversion provides a framework for reconstructing quantitative tissue properties by matching measured and simulated ultrasound waveforms.  Much of my earlier work focused on reconstructing the sound-speed distribution, which primarily controls the phase and arrival time of transmitted ultrasound.  However, the acoustic wave equation contains additional parameters that influence the measured signals, including attenuation and density.
 
