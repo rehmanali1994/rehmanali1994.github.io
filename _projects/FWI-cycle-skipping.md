@@ -95,7 +95,7 @@ A particularly useful application of frequency differencing is to use the synthe
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Owolabi2026LowFrequencyExtrapolation.png" title="Owolabi2026LowFrequencyExtrapolation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     Least-Squares Autoregressive Model for Low-Frequency Extrapolation to Overcome Cycle Skipping in FWI {% cite Owolabi2026LowFrequencyExtrapolation %}.
 </div>
 
