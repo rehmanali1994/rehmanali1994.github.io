@@ -21,7 +21,7 @@ Ultrasound computed tomography (USCT) provides a different approach to breast im
     Ring-based UST/USCT records transmissions through and reflections from tissue.  In-vivo comparison of FWI-based UST to MRI for breast imaging.
 </div>
 
-# Quantitative Breast Imaging with Full-Waveform Inversion
+### Quantitative Breast Imaging with Full-Waveform Inversion
 
 Full-waveform inversion (FWI) reconstructs tissue properties by matching the measured ultrasound waveforms to waveforms simulated through a model of the breast.  In transmission, sound speed primarily controls the phase and arrival time of the waveform, while attenuation controls its amplitude.  By explicitly modeling wave propagation, FWI can use these effects to reconstruct quantitative maps of sound speed and attenuation rather than producing only a qualitative echo image.  This approach enables the reconstruction of breast anatomy directly from the acoustic properties of tissue.  The resulting images can reveal lesions through changes in sound speed and attenuation while retaining the quantitative character of tomographic imaging.  Numerical and experimental studies demonstrate that FWI can recover these properties in breast phantoms, including both benign and malignant lesions {% cite Ali2024_BlockLU_2DFWI %}.
 
