@@ -21,6 +21,8 @@ Ultrasound computed tomography (USCT) provides a different approach to breast im
     Ring-based UST/USCT records transmissions through and reflections from tissue.  In-vivo comparison of FWI-based UST to MRI for breast imaging.
 </div>
 
+<br>
+
 ### Quantitative Breast Imaging with Full-Waveform Inversion
 
 Full-waveform inversion (FWI) reconstructs tissue properties by matching the measured ultrasound waveforms to waveforms simulated through a model of the breast.  In transmission, sound speed primarily controls the phase and arrival time of the waveform, while attenuation controls its amplitude.  By explicitly modeling wave propagation, FWI can use these effects to reconstruct quantitative maps of sound speed and attenuation rather than producing only a qualitative echo image.  This approach enables the reconstruction of breast anatomy directly from the acoustic properties of tissue.  The resulting images can reveal lesions through changes in sound speed and attenuation while retaining the quantitative character of tomographic imaging.  Numerical and experimental studies demonstrate that FWI can recover these properties in breast phantoms, including both benign and malignant lesions {% cite Ali2024_BlockLU_2DFWI %}.
@@ -39,6 +41,8 @@ Full-waveform inversion (FWI) reconstructs tissue properties by matching the mea
     FWI Reconstruction of Sound Speed and Attenuation in the Breast {% cite Ali2024_BlockLU_2DFWI %}.  (Top) Benign Cyst.  (Bottom) Malignancy.
 </div>
 
+<br>
+
 ### From Screening to Diagnosis
 
 The resolution of FWI reconstructions can be increased by incorporating progressively higher frequencies.  Lower frequencies provide more robust recovery of the large-scale sound-speed structure, while higher frequencies provide finer spatial detail.  This creates a natural tradeoff between image resolution and computational cost: a screening scan can first identify suspicious regions, after which additional high-frequency reconstruction can be used to characterize those regions in greater detail.  This suggests a workflow in which USCT serves not only as a screening modality, but also as a quantitative tool for investigating suspicious findings.  Rather than acquiring a single image optimized for every diagnostic task, the reconstruction can be adapted to the clinical question by varying the frequency content and computational effort.
@@ -52,6 +56,8 @@ The resolution of FWI reconstructions can be increased by incorporating progress
     Screening to Diagnosis.  In each case, the spatial resolution of the FWI sound speed reconstruction increases with frequency but may requires longer compute times to confirm suspected cancers. 
 </div>
 
+<br>
+
 ### Comparison with MRI
 
 The quantitative nature of FWI makes USCT particularly interesting as a potential alternative to MRI for breast imaging.  MRI provides excellent soft-tissue contrast but requires expensive equipment.  USCT uses non-ionizing ultrasound and can acquire whole-breast measurements using a surrounding transducer array.  The goal is not necessarily to replace MRI but to reduce the clinical burden on MRI by enabling ultrasound to answer the same fundamental clinical questions.  The FWI reconstructions below show that quantitative sound-speed imaging can produce structural and contrast information that is visually comparable to T1-weighted breast MRI. 
@@ -64,6 +70,8 @@ The quantitative nature of FWI makes USCT particularly interesting as a potentia
 <div class="caption">
     UST/USCT FWI Sound Speed Reconstruction vs. Contrast-Enhanced (T1-Weighted) MRI for Breast Imaging.
 </div>
+
+<br>
 
 ### Detecting Mammographically Occult Lesions
 
@@ -90,6 +98,8 @@ A particularly important application is the detection of cancers that are diffic
     Three Case Examples of Breast Cancers Detected using UST.  (Top Row) Fibroadenoma.  (Middle Row) Invasive Ductal Carcinoma Visible on Mammogram.  (Bottom
 Row) Invasive Ductal Carcinoma Occult on Mammogram. (Left Column) Mammography.  (Middle Column) FWI sound speed. (Right Column) B-mode reflection.
 </div>
+
+<br>
 
 ### Toward Quantitative Whole-Breast Imaging and Screening
 
