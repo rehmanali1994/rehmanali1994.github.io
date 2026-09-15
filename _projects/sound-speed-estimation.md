@@ -95,7 +95,7 @@ One approach we explored was to allow the imaging grid itself to adapt as the so
 
 ### Full-Wave Sound Speed Estimation
 
-The ray-based approaches described above approximate ultrasound propagation using travel times along individual acoustic paths.  While this approximation is useful for estimating aberration delays, it becomes increasingly limited in heterogeneous media where diffraction and wave interference play an important role in image formation.  A more complete approach is to model the full acoustic wavefield and use reverse-time migration (RTM) to directly connect the sound-speed distribution to the reconstructed image.  Wave-equation migration velocity analysis (WEMVA) provides such a framework.  
+The ray-based approaches described above approximate ultrasound propagation using travel times along individual acoustic paths.  While this approximation is useful for estimating aberration delays, it becomes increasingly limited in heterogeneous media where diffraction and wave interference play an important role in image formation.  A more complete approach is to model the full acoustic wavefield and use [reverse-time migration (RTM)](https://rehmanali1994.github.io/projects/wave-equation-migration/) to directly connect the sound-speed distribution to the reconstructed image.  Wave-equation migration velocity analysis (WEMVA) provides such a framework.  
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
