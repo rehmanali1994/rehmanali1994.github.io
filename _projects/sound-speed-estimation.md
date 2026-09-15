@@ -39,7 +39,7 @@ The ability to estimate local sound speed from pulse-echo measurements also open
     Example of Liver Imaging in Rats with Average and Local Sound Speed Estimates.
 </div>
 
-The figure above illustrates an example in which the estimated sound speed in the liver is compared with measurements obtained from excised tissue {% cite Ali2021LayeredMedia Telichko2022RatStudy %}.  In the first obese Zucker rat, corresponding to a lower steatosis grade (Steatosis Grade 1), the local sound speed was estimated as 1562.8 m/s, compared with 1557 m/s measured from the excised liver.  In the second rat, with a higher steatosis grade (Steatosis Grade 3), the estimated local sound speed was 1522.4 m/s compared with 1511 m/s ex vivo.  These measurements demonstrated that pulse-echo ultrasound could recover meaningful quantitative differences in liver sound speed in vivo.  More broadly, this work showed that sound-speed estimation could move beyond being merely an image-quality correction and become a potential source of tissue-specific quantitative information.
+The figure above illustrates an example in which the estimated sound speed in the liver is compared with measurements obtained from excised tissue {% cite Ali2021LayeredMedia Telichko2022RatStudy %}.  In the first obese Zucker rat, corresponding to a lower steatosis grade (Steatosis Grade 1), the local sound speed was estimated as 1562.8 m/s, compared with 1557 m/s measured from the excised liver.  In the second rat, with a higher steatosis grade (Steatosis Grade 3), the estimated local sound speed was 1522.4 m/s compared with 1511 m/s ex vivo.  These measurements demonstrate that pulse-echo ultrasound could recover meaningful quantitative differences in liver sound speed in vivo.  
 
 ### Generalizing Beyond Layered Media
 
@@ -82,7 +82,7 @@ For a handheld ultrasound system, the propagation paths between the transducer a
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Iterative Sound Speed Estimation and Aberration Correction Based on Ray Tomography with Aberration Delays {% cite Ali2023IterativeAberrationCorrection Ali2023DistributedAberrationCorrection %}.  On the right, I demonstrate the velocity-depth ambiguity that arises when the sound speed estimate is no longer constrained to layered media {% cite Ali2023IMPACT %}.  In practice, different sound speed estimates can provide similar improvements in the focusing of the image with the only difference being the depth placements of those imaging targets.  In an effort to mitigate the nonlinearity associated with the velocity depth ambiguity that locks the solution to the false minimum closest to the initial sound speed guess, we began to implement an adaptive imaging grid that follows the image targets as the sound speed estimate changes {% cite Ali2026TargetFollowingLagrangianApproach %}.  However, the fundamental ill-posedness and ill-conditioning of the inverse problem (also associated with the velocity-depth ambiguity) remain.
+    Iterative Sound Speed Estimation and Aberration Correction Based on Ray Tomography with Aberration Delays {% cite Ali2023IterativeAberrationCorrection Ali2023DistributedAberrationCorrection %}.  On the right, I demonstrate the velocity-depth ambiguity that arises when the sound speed estimate is no longer constrained to layered media {% cite Ali2023IMPACT %}.  In practice, different sound speed estimates can provide similar improvements in the focusing of the image with the only difference being the depth placements of those imaging targets.  
 </div>
 
 ### Velocity-Depth Ambiguity
@@ -95,7 +95,7 @@ One approach we explored was to allow the imaging grid itself to adapt as the so
 
 ### Full-Wave Sound Speed Estimation
 
-The ray-based approaches described above approximate ultrasound propagation using travel times along individual acoustic paths.  While this approximation is useful for estimating aberration delays, it becomes increasingly limited in heterogeneous media where diffraction and wave interference play an important role in image formation.  A more complete approach is to model the full acoustic wavefield and use reverse-time migration (RTM) to directly connect the sound-speed distribution to the reconstructed image.
+The ray-based approaches described above approximate ultrasound propagation using travel times along individual acoustic paths.  While this approximation is useful for estimating aberration delays, it becomes increasingly limited in heterogeneous media where diffraction and wave interference play an important role in image formation.  A more complete approach is to model the full acoustic wavefield and use reverse-time migration (RTM) to directly connect the sound-speed distribution to the reconstructed image.  Wave-equation migration velocity analysis (WEMVA) provides such a framework.  
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -109,9 +109,7 @@ The ray-based approaches described above approximate ultrasound propagation usin
     Full-Wave Sound Speed Estimation and Aberration Correction Using Image-Difference WEMVA {% cite Ali2026DifferentiableRTM %}.
 </div>
 
-Wave-equation migration velocity analysis (WEMVA) provides such a framework.  Instead of estimating sound speed by fitting differential travel-time measurements, WEMVA evaluates how errors in the sound-speed model affect the reconstructed image and uses this information to update the model.  In this way, sound-speed estimation is performed directly through the image-formation process.  Because the wave propagation and imaging operations are differentiable with respect to sound speed, errors between partial images are used to determine how the sound speed model should be updated.  Unlike full-waveform inversion, which minimizes the difference between measured and modeled channel data, WEMVA operates in the image domain.  This distinction is particularly useful for ultrasound imaging, where the objective of sound-speed estimation is ultimately to correct the focusing and localization of structures in the reconstructed image.
-
-Therefore, this work {% cite Ali2026DifferentiableRTM %} provides a transition from ray-based sound-speed estimation to full-wave modeling, allowing the estimation process to account for the complete physics of ultrasound propagation rather than only travel-time differences.
+Instead of estimating sound speed by fitting differential travel-time measurements, WEMVA evaluates how errors in the sound-speed model affect the reconstructed images and uses this information to update the model.  In this way, sound-speed estimation is performed directly through the image-formation process.  Because the wave propagation and imaging operations are differentiable with respect to sound speed, errors between partial images are used to determine how the sound speed model should be updated.  Unlike full-waveform inversion, which minimizes the difference between measured and modeled channel data, WEMVA operates in the image domain.  This distinction is particularly useful for ultrasound imaging, where the objective of sound-speed estimation is ultimately to correct the focusing and localization of structures in the reconstructed image.  Therefore, this work {% cite Ali2026DifferentiableRTM %} provides a transition from ray-based sound-speed estimation to full-wave modeling, allowing the estimation process to account for the complete physics of ultrasound propagation rather than only travel-time differences.
 
 ### Subsurface-Offset WEMVA
 
