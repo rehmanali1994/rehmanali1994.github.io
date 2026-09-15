@@ -23,7 +23,7 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Cycle Skipping in FWI.  (Top Left) Schematic.  (Top Right) Transcranial UST simulation where cycle skipping occur starting at 300 kHz but not at 100 kHz {% cite Ali2023HomogeneousStartingModelFWI %}.  (Bottom) Emergence of cycle skipping artifacts as the starting frequency of FWI increases in a breast UST simulation {% cite Ali2023StartingModelFWI %}.
+    Cycle Skipping in FWI.  (Top Left) Schematic.  (Top Right) Transcranial UST simulation where cycle skipping occur starting at 300 kHz but not 100 kHz {% cite Ali2023HomogeneousStartingModelFWI %}.  (Bottom) Emergence of artifacts as the starting frequency of FWI increases in a breast UST simulation {% cite Ali2023StartingModelFWI %}.
 </div>
 
 
@@ -41,3 +41,50 @@ related_publications: true
 </div>
 
 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/FrequencyDifferencingInSilico.png" title="FrequencyDifferencingInSilico" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/FrequencyDifferencingInVitro.png" title="FrequencyDifferencingInVitro" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2025FrequencyDifferencing.png" title="Ali2025FrequencyDifferencing" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/TranscranialFrequencyDifferencing.png" title="TranscranialFrequencyDifferencing" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024FrequencyDifferencing.png" title="Ali2024FrequencyDifferencing" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Data-Domain Frequency-Differencing Method to Kickstart FWI Without Cycle Skipping {% cite Ali2024FrequencyDifferencing Ali2025FrequencyDifferencing %}.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/NumericalBrainPhantom.png" title="NumericalBrainPhantom" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/NumericalBrainPhantomResults.png" title="NumericalBrainPhantomResults" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in a Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST Ali2023HomogeneousStartingModelFWI%}.
+</div>
