@@ -27,6 +27,8 @@ related_publications: true
 
 Full-waveform inversion (FWI) provides a framework for reconstructing quantitative acoustic properties of tissue by explicitly modeling the propagation of ultrasound through the imaging volume.  In ultrasound computed tomography (USCT/UST), this can provide high-resolution maps of sound speed and other acoustic parameters, but accurate 3D FWI is substantially more challenging than conventional 2D reconstruction.  Most practical USCT systems use ring arrays with elevation-focused transducers.  A common reconstruction strategy treats each position of the ring array independently and performs 2D slicewise FWI before stacking the reconstructed slices into a volume. While computationally convenient, this approach does not account for wave propagation in the elevation direction or the finite elevation focusing of the transducers.  My goal is to simultaneously develop 3D FWI techniques that explicitly account for the actual 3D wave propagation and develop a multi-row ring-array acquisition geometry that can best leverage 3D FWI for volumetric imaging.
 
+<br>
+
 ### From 2D Slicewise FWI to 3D FWI
 
 <div class="row justify-content-sm-center">
@@ -41,6 +43,8 @@ Full-waveform inversion (FWI) provides a framework for reconstructing quantitati
 A natural way to obtain true volumetric FWI is to replace the conventional single-row ring array with a multi-row ring array.  The additional rows provide three-dimensional illumination of the breast, while the full-wave model accounts for propagation both within and between the imaging planes.  Simulations with multi-row ring-array data demonstrated the limitations of 2D slicewise reconstruction.  Although slicewise FWI can recover the general structure of the sound-speed distribution, it cannot correctly model the out-of-plane propagation and therefore produces errors in the reconstructed volume.  Note that this particular slicewise reconstruction is significantly worse than it would be with an elevation-focused ring-array because no effort is made to collimate the ultrasound to a thin volume that can effectively be treated as a slice.
 
 In contrast, 3D FWI uses the complete multi-row dataset and a 3D wave-equation model. The reconstructed sound-speed distributions more closely reproduce the ground truth, particularly around suspicious high-sound-speed structures such as breast lesions and regions of dense tissue. {% cite Ali2025_3DFWI %}.  These results demonstrate that moving from 2D slicewise FWI to true 3D inversion is not simply a matter of adding more slices: the forward model itself must account for the three-dimensional physics of the acquisition.
+
+<br>
 
 ### Making 3D FWI Computationally Practical
 
@@ -67,6 +71,8 @@ The main obstacle to routine 3D FWI is computational cost. In the frequency doma
 </div>
 
 I began investigating structured approaches to solving the 2D Helmholtz equation that exploit the relationship between its block structure and one-way wave propagation.  The block LU factorization of the 2D Helmholtz system reveals the solution as a cascade of one-way sweeps {% cite Ali2024_BlockLU_2DFWI %}.  While the block LU factorization is no longer computationally tractable in 3D, the decomposition into one-way sweeps continues to extend nicely into the 3D Helmholtz equation.  This connection provides both a useful interpretation of the numerical linear algebra and a route toward more efficient wave-equation solvers for 3D FWI.
+
+<br>
 
 ### One-Way Wave Equation Decomposition of the Helmholtz Equation
 
