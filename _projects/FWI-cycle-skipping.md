@@ -31,6 +31,8 @@ The standard way to reduce cycle skipping is to begin the inversion at low frequ
     Cycle Skipping in FWI.  (Top Left) Schematic.  (Top Right) Transcranial UST simulation where cycle skipping occur starting at 300 kHz but not 100 kHz {% cite Ali2023HomogeneousStartingModelFWI %}.  (Bottom) Emergence of artifacts as the starting frequency of FWI increases in a breast UST simulation {% cite Ali2023StartingModelFWI %}.
 </div>
 
+<br>
+
 ### Frequency-Difference FWI (FD-FWI)
 
 To overcome the lack of low-frequency measurements, I developed a frequency-differencing approach that synthesizes low-frequency signals from the available high-frequency data.  The key observation is that signals at two different frequencies can be combined to produce a signal at their frequency difference (or beat frequency).  When the two frequencies are close together, the difference frequency can be substantially lower than either measured frequency.These synthesized low-frequency signals can then be used to initialize FWI before progressively returning to the original measured frequencies.  This approach effectively creates the low-frequency information needed to avoid cycle skipping without requiring the transducer to operate outside its normal bandwidth.  In simulations and phantom experiments, frequency differencing produced substantially improved reconstructions compared with starting FWI directly from a homogeneous sound-speed model.  
@@ -76,6 +78,7 @@ An important distinction is between data-domain and model-domain frequency diffe
 
 A particularly useful application of frequency differencing is to use the synthesized low-frequency data only to generate a better starting model. FWI is first performed on the extrapolated low-frequency data, and the resulting sound-speed distribution is then supplied as the initial model for conventional FWI using the measured data.  This separates the two roles of the inversion: the synthesized low frequencies provide the large-scale information needed to avoid cycle skipping, while the measured high-frequency data provide the resolution needed for the final reconstruction.  In breast phantom experiments, this strategy substantially improved the recovered sound-speed values compared with FWI initialized from a homogeneous model. The reconstructed background, lesion, and cyst sound speeds were all brought much closer to their expected values.  Importantly, the approach can be used with the transducer's normal operating frequency. This avoids the practical limitations of deliberately exciting the transducer at frequencies far below its nominal bandwidth, while still providing FWI with the low-frequency information needed to initialize the inversion.
 
+<br>
 
 ### Low-Frequency Extrapolation Beyond Frequency Differencing
 
@@ -94,6 +97,8 @@ A particularly useful application of frequency differencing is to use the synthe
 </div>
 
 Frequency differencing is one way to overcome the lack of low-frequency information, but it is not the only possible approach.  I have also explored low-frequency extrapolation using a least-squares autoregressive model, which estimates missing low-frequency content directly from the measured signal spectrum.  The underlying goal is the same: construct a starting model that contains the large-scale structure before introducing the higher frequencies responsible for fine spatial detail.
+
+<br>
 
 ### FD-FWI vs. Adaptive Waveform Inversion (AWI)
 
@@ -133,6 +138,8 @@ Here FD-FWI and AWI are compared with conventional FWI in numerical breast and t
 <div class="caption" style="text-align: justify;">
     Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST Ali2023HomogeneousStartingModelFWI %}.
 </div>
+
+<br>
 
 ### Alternative and Future Strategies
 
