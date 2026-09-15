@@ -64,4 +64,4 @@ My initial implementation used the difference between images reconstructed from 
     Wave-Equation Migration Velocity Analysis (WEMVA) for Sound Speed Estimation and Aberration Correction.  Both animations correspond to channel data from the same phantom experiment.  (Left) Image-Difference WEMVA {% cite Ali2026DifferentiableRTM %}.  (Right) Subsurface-Offset WEMVA {% cite Ali2026WEMVA %}.  Subsurface-offset WEMVA yields better aberration corrections in fewer iterations than image-difference WEMVA.
 </div>
 
-<b>
+<br>
