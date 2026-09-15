@@ -95,7 +95,7 @@ A particularly useful application of frequency differencing is to use the synthe
 
 Frequency differencing is one way to overcome the lack of low-frequency information, but it is not the only possible approach.  I have also explored low-frequency extrapolation using a least-squares autoregressive model, which estimates missing low-frequency content directly from the measured signal spectrum.  The underlying goal is the same: construct a starting model that contains the large-scale structure before introducing the higher frequencies responsible for fine spatial detail.
 
-### Frequency-Difference FWI (FD-FWI) vs. Adaptive Waveform Inversion (AWI)
+### FD-FWI vs. Adaptive Waveform Inversion (AWI)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
