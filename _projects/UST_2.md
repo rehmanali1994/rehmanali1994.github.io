@@ -69,6 +69,28 @@ related_publications: true
 
 
 
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/LowFrequencyExtrapolation.png" title="LowFrequencyExtrapolation" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/Owolabi2026LowFrequencyExtrapolation.png" title="Owolabi2026LowFrequencyExtrapolation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Least-Squares Autoregressive Model for Low-Frequency Extrapolation to Overcome Cycle Skipping in FWI {% cite Owolabi2026LowFrequencyExtrapolation %}.
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -86,5 +108,5 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in a Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST Ali2023HomogeneousStartingModelFWI%}.
+    Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in a Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST Ali2023HomogeneousStartingModelFWI %}.
 </div>
