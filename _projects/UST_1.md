@@ -19,7 +19,7 @@ related_publications: true
     </div>
 </div>
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/MultiRowRingArrayDesign.png" title="MultiRowRingArrayDesign" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -72,7 +72,7 @@ related_publications: true
     </div>
 </div>
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/OneWayLUvsBlockLU.png" title="OneWayLUvsBlockLU" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
