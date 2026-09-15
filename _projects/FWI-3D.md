@@ -68,7 +68,7 @@ The main obstacle to routine 3D FWI is computational cost. In the frequency doma
 
 I began investigating structured approaches to solving the 2D Helmholtz equation that exploit the relationship between its block structure and one-way wave propagation.  The block LU factorization of the 2D Helmholtz system reveals the solution as a cascade of one-way sweeps {% cite Ali2024_BlockLU_2DFWI %}.  While the block LU factorization is no longer computationally tractable in 3D, the decomposition into one-way sweeps continues to extend nicely into the 3D Helmholtz equation.  This connection provides both a useful interpretation of the numerical linear algebra and a route toward more efficient wave-equation solvers for 3D FWI.
 
-### One-Way Wave Equations as an Approximation
+### One-Way Wave Equation Decomposition of the Helmholtz Equation
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
