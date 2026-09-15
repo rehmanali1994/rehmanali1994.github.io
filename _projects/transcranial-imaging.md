@@ -82,7 +82,7 @@ The next step was to evaluate transcranial USCT using an ex-vivo human cadaver b
 </div>
 
 
-## [Cycle-Skipping Robust FWI](https://rehmanali1994.github.io/projects/FWI-cycle-skipping/) for Transcranial Imaging
+### [Cycle-Skipping Robust FWI](https://rehmanali1994.github.io/projects/FWI-cycle-skipping/) for Transcranial Imaging
 
 The strong acoustic heterogeneity of the skull makes transcranial FWI particularly susceptible to cycle skipping.  Several strategies can mitigate this problem.  Frequency-difference FWI (FD-FWI) synthesizes low-frequency information from pairs of measured higher-frequency signals, providing the long-wavelength information needed to initialize FWI.  Adaptive waveform inversion (AWI) takes a different approach, replacing direct waveform matching with a filter-based objective that encourages the transformation between simulated and measured signals to approach a zero-lag delta function.  Other approaches, including optimal transport, low-frequency extrapolation, and learned signal transformations, seek to provide similar robustness without requiring additional low-frequency measurements.  The comparison below illustrates the behavior of FD-FWI and AWI relative to conventional FWI in a numerical transcranial imaging phantom {% cite Klaben2026JAX %}. These cycle-skipping-robust approaches provide complementary strategies for overcoming the severe initialization problem introduced by the skull.
 
