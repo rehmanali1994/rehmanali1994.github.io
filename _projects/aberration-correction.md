@@ -105,7 +105,7 @@ These limitations motivate a shift from ray-based propagation models to full-wav
 
 
 
-### Circumventing the Fourier Uncertainty Principle: Subsurface-Offset WEMVA
+### Overcoming the Fourier Uncertainty Principle: Subsurface-Offset WEMVA
 
 The main challenge associated with image-difference WEMVA is that multiple propagation path contribute to spatial resolution at an image point.  However, the partial images compared in the image-difference approach restrict the angular diversity needed to fully resolve each image point.  However, it becomes necessary to restrict that angular diversity to better isolate aberrations along individual propagation paths.  This ultimately results in a Fourier uncertainty principle between image resolution and path-based modeling of aberration.  If we restrict angular diversity to isolate propagation paths, it becomes difficult to accurately localize the aberrations in space due to the loss of spatial resolution; conversely, if we focus on maximally resolving each image point, it becomes difficult to isolate the impact of a particular propagation path on measured aberrations.  
 
