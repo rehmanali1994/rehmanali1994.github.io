@@ -89,6 +89,6 @@ I began investigating structured approaches to solving the 2D Helmholtz equation
 
 The connection between block LU factorization and one-way wave equations suggests a further approximation.  Instead of performing the full block factorization, the original 3D Helmholtz equation operator can be decomposed into a cascade of one-way wave equation operators.  Phase-shift-plus-interpolation (PSPI) provides an efficient way to implement these one-way operators in heterogeneous media.  By performing wave propagation primarily in the Fourier domain, the approach can substantially reduce the memory and computational requirements associated with full 3D wave-equation modeling.  The goal is therefore not simply to replace the full wave equation with a less accurate approximation, but to identify where the computational structure of the full problem can be exploited without losing the wave-physics needed for quantitative reconstruction.  Together, these developments address two complementary requirements for 3D FWI in USCT: an accurate representation of the 3D acquisition physics and scalable methods for solving the resulting wave equation.
 
-<b>
+<br>
 
 
