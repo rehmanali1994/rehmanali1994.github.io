@@ -11,7 +11,9 @@ horizontal: false
 
 ## Research Statement Overview
 
-My research focuses on developing computational ultrasound imaging techniques that treat image formation and reconstruction as inverse problems rooted in wave physics.  My work spans <ins>***conventional pulse-echo ultrasound***</ins> and an emerging modality known as <ins>***ultrasound [computed] tomography (UST/USCT)***</ins>, which records the transmission of ultrasound through tissue.  Clinical applications include breast cancer screening, point-of-care assessment of acute neurological conditions, and quantitative imaging of the liver.  ***[Download my complete Research Statement for more details](/assets/pdf/ResearchStatement.pdf)***.
+My research focuses on developing computational ultrasound imaging techniques that treat image formation and reconstruction as inverse problems rooted in wave physics.  My work spans <ins>***conventional pulse-echo ultrasound***</ins> and an emerging modality known as <ins>***ultrasound [computed] tomography (UST/USCT)***</ins>, which records the transmission of ultrasound through tissue.  Clinical applications include breast cancer screening, point-of-care assessment of acute neurological conditions, and quantitative imaging of the liver.  
+
+### ***[Download my complete Research Statement for more details](/assets/pdf/ResearchStatement.pdf)***.
 
 
 <!-- pages/research.md -->
