@@ -41,6 +41,8 @@ Early work focused on estimating liver sound speed from pulse-echo ultrasound us
     Example of Liver Imaging in Rats with Average and Local Sound Speed Estimates {% cite Ali2021LayeredMedia %}. (Top) First rat shown is a female obese Zucker rat with a steatosis grade of 1. The local sound speed in the liver was measured to be 1562.8 m/s. The sound speed measured in the excised liver sample was 1557 m/s. (Bottom) Second rat is a female obese Zucker rat with a steatosis grade of 3. The local sound speed in the liver was measured to be 1522.4 m/s. The sound speed measured in the excised liver sample was 1511 m/s.  See the complete study on liver steatosis in obese Zucker rats {% cite Telichko2022RatStudy %}.
 </div>
 
+<br>
+
 ### Wave-Equation Migration Velocity Analysis (WEMVA) for Quantitative Liver Sound Speed
 
 <div class="row justify-content-sm-center">
@@ -92,6 +94,8 @@ The layered-medium model provides a useful estimate of liver sound speed, but it
 <div class="caption" style="text-align: justify;">
     Subsurface-Offset WEMVA in the Abdomen of Obese Zucker Rats and a Healthy Human Subject {% cite Ali2026WEMVA %}.
 </div>
+
+<br>
 
 ### Future Work: Extending WEMVA to Curvilinear Arrays for Human Abdominal Imaging
 
