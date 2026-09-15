@@ -91,7 +91,7 @@ A particularly important application is the detection of cancers that are diffic
 Row) Invasive Ductal Carcinoma Occult on Mammogram. (Left Column) Mammography.  (Middle Column) FWI sound speed. (Right Column) B-mode reflection.
 </div>
 
-### Toward Quantitative High-Resolution Whole-Breast Imaging and Screening
+### Toward Quantitative Whole-Breast Imaging and Screening
 
 The broader objective is to combine the advantages of ultrasound tomography, full-waveform inversion, and modern computational imaging into a practical breast-screening system.  Transmission and reflection measurements provide complementary sensitivity to tissue properties, while FWI allows those measurements to be interpreted through a physics-based model of wave propagation.  The resulting framework moves breast ultrasound from qualitative detection toward quantitative tissue characterization: instead of asking only whether a structure reflects ultrasound, the reconstruction asks how its acoustic properties differ from surrounding tissue.  Improving the accuracy, resolution, and computational efficiency of these reconstructions could ultimately enable USCT to provide a radiation-free and quantitative approach to whole-breast screening and follow-up diagnosis.  Future direction for whole-breast USCT include 3D volumetric FWI and USCT acquisition systems {% cite Ali2024_BlockLU_2DFWI %}, and data efficiency for rapid screening via transmit-receive downsampling {% cite Nketia2026Downsampling %}.
 
