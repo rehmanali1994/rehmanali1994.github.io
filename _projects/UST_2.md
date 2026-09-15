@@ -84,21 +84,11 @@ related_publications: true
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Klaben2026JAX_BreastOnly.png" title="Klaben2026JAX_BreastOnly" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/NumericalBrainPhantom.png" title="NumericalBrainPhantom" class="img-fluid rounded z-depth-1" %}
@@ -108,5 +98,9 @@ related_publications: true
     </div>
 </div>
 <div class="caption" style="text-align: justify;">
-    Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in a Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST Ali2023HomogeneousStartingModelFWI %}.
+    Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in (Top Row) Numerical Breast Phantom at 400 kHz and (Bottom Row) Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST Ali2023HomogeneousStartingModelFWI %}.
 </div>
+
+
+
+
