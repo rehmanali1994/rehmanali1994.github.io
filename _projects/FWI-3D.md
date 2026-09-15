@@ -8,8 +8,6 @@ category: Full-Waveform Inversion (FWI) for UST/USCT
 related_publications: true
 ---
 
-### 3D FWI for Ultrasound Computed Tomography (UST/USCT)
-
 Full-waveform inversion (FWI) provides a framework for reconstructing quantitative acoustic properties of tissue by explicitly modeling the propagation of ultrasound through the imaging volume.  In ultrasound computed tomography (USCT/UST), this can provide high-resolution maps of sound speed and other acoustic parameters, but accurate 3D FWI is substantially more challenging than conventional 2D reconstruction.  Most practical USCT systems use ring arrays with elevation-focused transducers.  A common reconstruction strategy treats each position of the ring array independently and performs 2D slicewise FWI before stacking the reconstructed slices into a volume. While computationally convenient, this approach does not account for wave propagation in the elevation direction or the finite elevation focusing of the transducers.  My goal is to simultaneously develop 3D FWI techniques that explicitly account for the actual 3D wave propagation and develop a multi-row ring-array acquisition geometry that can best leverage 3D FWI for volumetric imaging.
 
 <div class="row justify-content-sm-center">
