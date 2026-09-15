@@ -26,6 +26,8 @@ The situation is different for reflected ultrasound.  Backscattered signals aris
     Transmission vs Reflection in UST/USCT. (Left) The transmission of ultrasound through the breast is primarily impacted by sound speed and attenuation. Sound speed primarily affects the shape of the transmitted wavefront by advancing and delaying the wave. Attenuation affect the amplitude of the transmitted wave. (Right) Ultrasound backscatter reflected by the tissue is the result of spatial changes in the impedance Z=ρc (a product of sound speed c and density ρ). Although density has a small impact on the waveform transmitted through tissue, it plays a much more significant role on the backscattered reflections, so we theorize that modeling the reflected ultrasound signals should enable imaging of the mass density in the breast.
 </div>
 
+<br>
+
 
 ### Sound Speed and Attenuation Based on Transmission Tomography
 
@@ -57,6 +59,8 @@ As a first step toward multiparametric reconstruction, I extended FWI for transm
     FWI Reconstruction of Sound Speed and Attenuation in Phantoms {% cite Ali2024_BlockLU_2DFWI %}. 
 </div>
 
+<br>
+
 ### [Quantitative Reconstruction in the Breast](https://rehmanali1994.github.io/projects/breast-cancer-screening/)
 
 The ability to reconstruct multiple acoustic properties is particularly relevant to [breast imaging](https://rehmanali1994.github.io/projects/breast-cancer-screening/).  Conventional B-mode ultrasound primarily depicts spatial variations in scattering, while transmission ultrasound provides quantitative information about the acoustic properties along propagation paths.  In the breast, multiparametric FWI can recover both sound speed and attenuation while preserving the spatial localization of lesions and other structures.  The key limitation, however, is that an acoustic model still treats the tissue as a fluid and therefore does not model shear-wave propagation or the full mechanical response of tissue.
@@ -76,6 +80,8 @@ The ability to reconstruct multiple acoustic properties is particularly relevant
 </div>
 
 The examples above show in-vivo breast reconstructions differentiating between a benign cyst and and a diagnosed malignancy, demonstrating the potential of FWI to provide diagnostically relevant tissue characterization in addition to anatomical imaging {% cite Ali2024_BlockLU_2DFWI %}.  For example, although the fluid-filled cyst has a higher sound speed than the fat background of the breast, the attenuation is through the same region is low, and the globular morphology of the cyst is indicative of a fluid filled pocket of tissue.  However, the malignancy is a spiculated mass with branching tissue indicative of tissue scarring that has both high sound speed and attenuation.  This ultimately differentiates the malignancy from the fluid-filled cyst.
+
+<br>
 
 ### From the Acoustic to the Fully Elastic Wave Equation
 
