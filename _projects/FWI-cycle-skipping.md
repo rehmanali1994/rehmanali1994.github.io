@@ -93,7 +93,7 @@ A particularly useful application of frequency differencing is to use the synthe
     Least-Squares Autoregressive Model for Low-Frequency Extrapolation to Overcome Cycle Skipping in FWI {% cite Owolabi2026LowFrequencyExtrapolation %}.
 </div>
 
-Frequency differencing is one way to overcome the lack of low-frequency information, but it is not the only possible approach.  I have also explored low-frequency extrapolation using a least-squares autoregressive model, which estimates missing low-frequency content directly from the measured signal spectrum.  The underlying goal is the same: construct a starting model that contains the large-scale structure of the acoustic medium before introducing the higher frequencies responsible for fine spatial detail.
+Frequency differencing is one way to overcome the lack of low-frequency information, but it is not the only possible approach.  I have also explored low-frequency extrapolation using a least-squares autoregressive model, which estimates missing low-frequency content directly from the measured signal spectrum.  The underlying goal is the same: construct a starting model that contains the large-scale structure before introducing the higher frequencies responsible for fine spatial detail.
 
 ### Frequency-Difference FWI (FD-FWI) vs. Adaptive Waveform Inversion (AWI)
 
@@ -109,7 +109,7 @@ Frequency differencing is one way to overcome the lack of low-frequency informat
     Cycle-Skipping-Robust FWI: Frequency-Difference Full-Waveform Inversion (FD-FWI) vs. Adaptive Waveform Inversion (AWI) {% cite Klaben2026JAX %}.
 </div>
 
-Adaptive waveform inversion (AWI) represents another strategy to overcome cycle skipping.  Rather than focus on extrapolating low-frequency signals, AWI circumvents cycle skipping by modeling the transformation from measured to simulated signals as a filter.  If the simulated and measured signals are correctly aligned, the required transformation is simply an identity filter—a delta function at zero time lag.  Therefore, the goal of AWI is to drive that filter towards a zero-lag delta function.  The AWI objective penalizes energy in the filter away from zero lag rather than directly minimizing the sample-by-sample waveform difference. This changes the shape of the inversion objective and makes it much less susceptible to the local minima caused by cycle skipping in FWI.
+Adaptive waveform inversion (AWI) represents another strategy to overcome cycle skipping.  Rather than focus on extrapolating low-frequency signals, AWI circumvents cycle skipping by modeling the transformation from measured to simulated signals as a filter.  If the simulated and measured signals are correctly aligned, the filter should be an identity transformation—a delta function at zero time lag.  Therefore, the goal of AWI is to drive that filter towards a zero-lag delta function.  The AWI objective penalizes energy in the filter away from zero lag rather than directly minimizing the sample-by-sample waveform difference. This changes the shape of the inversion objective and makes it much less susceptible to the local minima caused by cycle skipping in FWI.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
