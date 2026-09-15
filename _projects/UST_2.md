@@ -30,7 +30,7 @@ related_publications: true
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/FrequencyDifferenceFWI.png" title="FrequencyDifferenceFWI.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/FrequencyDifferenceFWI.png" title="FrequencyDifferenceFWI" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024FrequencyDifferenceFWI.png" title="Ali2024FrequencyDifferenceFWI" class="img-fluid rounded z-depth-1" %}
@@ -115,3 +115,11 @@ related_publications: true
 
 
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/OtherCycleSkippingRobustTechniques.png" title="OtherCycleSkippingRobustTechniques" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption" style="text-align: justify;">
+    Other Proposed Cycle-Skipping Robust Formulations of FWI: (1) Optimal Transport, (2) Learned Low-Frequency Extrapolation, and (3) Learning the Optimal Transformation of the Ultrasound Signal.
+</div>
