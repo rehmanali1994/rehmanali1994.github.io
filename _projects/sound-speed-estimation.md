@@ -10,6 +10,8 @@ related_publications: true
 
 Accurate knowledge of tissue sound speed is fundamental to ultrasound imaging and has important clinical applications such as [cancer detection](https://rehmanali1994.github.io/projects/breast-cancer-screening/) and [staging of fatty liver disease](https://rehmanali1994.github.io/projects/quantitative-liver-imaging/).  Conventional beamforming typically assumes a fixed sound speed, but the true sound speed varies spatially with tissue composition.  When this assumption is incorrect, the resulting timing errors cause aberration, defocusing, and incorrect spatial localization of structures.  Therefore, sound speed is not only a quantitative biomarker but it can play a fundamental role in ultrasound image quality and is fundamentally intertwined with the topic of [aberration correction](https://rehmanali1994.github.io/projects/aberration-correction/).
 
+<br>
+
 ### From Beamforming Sound Speed to Local Sound Speed
 
 <div class="row justify-content-sm-center">
@@ -26,6 +28,8 @@ Accurate knowledge of tissue sound speed is fundamental to ultrasound imaging an
 
 During my PhD, I developed one of the first quantitative approaches for estimating sound speed directly from pulse-echo ultrasound data.  The key observation is that the sound speed used for beamforming contains information about the propagation speed of the tissue itself.  For a layered medium, the beamforming sound speed that produces the best focus at a given depth can be interpreted as an estimate of the average sound speed above that depth.  This turns the beamforming problem into an inverse problem: rather than treating the sound speed as a fixed imaging parameter, we can measure how the optimal focusing sound speed changes with depth and invert this relationship to recover a local, depth-wise sound-speed profile {% cite Ali2021LayeredMedia %}.  This provides a way to obtain quantitative sound-speed information using the same pulse-echo data that are already acquired for conventional ultrasound imaging.  The layered-medium formulation also provided a useful framework for investigating different acquisition strategies. We demonstrated related approaches using plane-wave imaging {% cite Ali2020PlaneWaveSoS %} and common-midpoint gathers {% cite Ali2020CMP Brevett2022CMP %}. 
 
+<br>
+
 ### [Quantitative Liver Sound Speed Imaging](https://rehmanali1994.github.io/projects/quantitative-liver-imaging/)
 
 The ability to estimate local sound speed from pulse-echo measurements also opened the possibility of using ultrasound as a quantitative tool for characterizing tissue composition.  One application that motivated this work was [liver imaging](https://rehmanali1994.github.io/projects/quantitative-liver-imaging/).  Changes in liver composition, including those associated with fatty liver disease, can alter the acoustic properties of the tissue.  The sound-speed estimates therefore provide information that is complementary to conventional B-mode reflectivity.
@@ -40,6 +44,8 @@ The ability to estimate local sound speed from pulse-echo measurements also open
 </div>
 
 The figure above illustrates an example in which the estimated sound speed in the liver is compared with measurements obtained from excised tissue {% cite Ali2021LayeredMedia Telichko2022RatStudy %}.  In the first obese Zucker rat, corresponding to a lower steatosis grade (Steatosis Grade 1), the local sound speed was estimated as 1562.8 m/s, compared with 1557 m/s measured from the excised liver.  In the second rat, with a higher steatosis grade (Steatosis Grade 3), the estimated local sound speed was 1522.4 m/s compared with 1511 m/s ex vivo.  These measurements demonstrate that pulse-echo ultrasound could recover meaningful quantitative differences in liver sound speed in vivo.  
+
+<br>
 
 ### Generalizing Beyond Layered Media
 
@@ -56,6 +62,8 @@ The figure above illustrates an example in which the estimated sound speed in th
 </div>
 
 The initial layered-medium model makes an important simplifying assumption: sound speed varies primarily with depth.  Under this assumption, the relationship between an average focusing sound speed and the underlying local sound-speed profile can be derived relatively simply.  I subsequently generalized this relationship to account for the collection of propagation paths contributing to the focusing of a point {% cite Ali2019Average2LocalSoS %}.  This provided a more general description of how local sound-speed variations affect the effective focusing speed measured by the imaging system.  However, this generalization also exposed a fundamental limitation of the layered model.  Real biological tissue is not necessarily laterally homogeneous.  As lateral sound-speed variations become significant, the assumption that the medium can be represented by a one-dimensional depth profile becomes increasingly inaccurate {% cite Ali2022DistributedAberrationCorrection %}.  The focusing errors are then no longer described adequately by a single depth-dependent sound-speed value.  This limitation motivated a shift from estimating a one-dimensional sound-speed profile toward explicitly modeling the spatially distributed aberration produced by heterogeneous tissue.
+
+<br>
 
 ### From a Layered Profile to Complete Spatial Variation in Sound Speed
 
@@ -85,13 +93,19 @@ For a handheld ultrasound system, the propagation paths between the transducer a
     Iterative Sound Speed Estimation and Aberration Correction Based on Ray Tomography with Aberration Delays {% cite Ali2023IterativeAberrationCorrection Ali2023DistributedAberrationCorrection %}.  On the right, I demonstrate the velocity-depth ambiguity that arises when the sound speed estimate is no longer constrained to layered media {% cite Ali2023IMPACT %}.  In practice, different sound speed estimates can provide similar improvements in the focusing of the image with the only difference being the depth placements of those imaging targets.  
 </div>
 
+<br>
+
 ### Velocity-Depth Ambiguity
 
 Moving beyond layered media, however, reveals a deeper problem with pulse-echo sound-speed estimation: the data do not uniquely determine both the sound speed and the location of the reflecting structures.  A change in sound speed changes the estimated travel time to an imaging target.  But the same observed travel time can often be explained by placing that target at a different physical depth.  Consequently, different sound-speed models can produce similarly focused images while placing the underlying structures at different depths.  This velocity–depth ambiguity makes the inverse problem highly nonlinear. In iterative optimization, the solution can become attracted to a local minimum associated with the initial sound-speed estimate rather than converging to the true medium.  The example above illustrates this ambiguity.  Different sound-speed estimates can produce comparable improvements in image focusing, while the primary difference is the inferred depth of the targets.  Improving image sharpness alone is therefore not sufficient to guarantee an accurate sound-speed reconstruction.  This observation changed the goal of the problem: rather than simply finding the sound-speed model that produces the sharpest image, we need an inversion framework that accounts explicitly for the coupled relationship between wave propagation, image formation, and target position.
 
+<br>
+
 ### Following the Image Targets While Estimating the Medium's Sound Speed
 
 One approach we explored was to allow the imaging grid itself to adapt as the sound-speed estimate changes.  Instead of assuming that the locations of image targets remain fixed while the propagation model is updated, the imaging coordinates can be allowed to follow the targets through the evolving model.  This target-following or Lagrangian viewpoint helps reduce some of the nonlinear behavior associated with the velocity–depth ambiguity  {% cite Ali2026TargetFollowingLagrangianApproach %}.  It does not, however, eliminate the underlying ill-posedness of the problem.  Limited-angle pulse-echo measurements without absolute time-of-flight information simply do not contain enough independent information to uniquely recover an arbitrary three-dimensional sound-speed distribution and the associated reflector geometry without additional constraints.  This limitation motivated the next step in the progression: moving from ray-based travel-time models to full-wave modeling.
+
+<br>
 
 ### Full-Wave Sound Speed Estimation
 
@@ -110,6 +124,8 @@ The ray-based approaches described above approximate ultrasound propagation usin
 </div>
 
 Instead of estimating sound speed by fitting differential travel-time measurements, WEMVA evaluates how errors in the sound-speed model affect the reconstructed images and uses this information to update the model.  In this way, sound-speed estimation is performed directly through the image-formation process.  Because the wave propagation and imaging operations are differentiable with respect to sound speed, errors between partial images are used to determine how the sound speed model should be updated.  Unlike full-waveform inversion, which minimizes the difference between measured and modeled channel data, WEMVA operates in the image domain.  This distinction is particularly useful for ultrasound imaging, where the objective of sound-speed estimation is ultimately to correct the focusing and localization of structures in the reconstructed image.  Therefore, this work {% cite Ali2026DifferentiableRTM %} provides a transition from ray-based sound-speed estimation to full-wave modeling, allowing the estimation process to account for the complete physics of ultrasound propagation rather than only travel-time differences.
+
+<br>
 
 ### Subsurface-Offset WEMVA
 
