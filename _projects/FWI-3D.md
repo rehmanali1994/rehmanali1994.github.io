@@ -8,7 +8,7 @@ category: Full-Waveform Inversion (FWI) for UST/USCT
 related_publications: true
 ---
 
-### 3D Full-Waveform Inversion (FWI) for Ultrasound Computed Tomography (UST/USCT)
+### 3D FWI for Ultrasound Computed Tomography (UST/USCT)
 
 Full-waveform inversion (FWI) provides a framework for reconstructing quantitative acoustic properties of tissue by explicitly modeling the propagation of ultrasound through the imaging volume.  In ultrasound computed tomography (USCT/UST), this can provide high-resolution maps of sound speed and other acoustic parameters, but accurate 3D FWI is substantially more challenging than conventional 2D reconstruction.  Most practical USCT systems use ring arrays with elevation-focused transducers.  A common reconstruction strategy treats each position of the ring array independently and performs 2D slicewise FWI before stacking the reconstructed slices into a volume. While computationally convenient, this approach does not account for wave propagation in the elevation direction or the finite elevation focusing of the transducers.  My goal is to simultaneously develop 3D FWI techniques that explicitly account for the actual 3D wave propagation and develop a multi-row ring-array acquisition geometry that can best leverage 3D FWI for volumetric imaging.
 
@@ -72,8 +72,6 @@ I began investigating structured approaches to solving the 2D Helmholtz equation
 
 ### One-Way Wave Equations as an Approximation
 
-The connection between block LU factorization and one-way wave equations suggests a further approximation.  Instead of performing the full block factorization, the original 3D Helmholtz equation operator can be decomposed into a cascade of one-way wave equation operators.  Phase-shift-plus-interpolation (PSPI) provides an efficient way to implement these one-way operators in heterogeneous media.  By performing wave propagation primarily in the Fourier domain, the approach can substantially reduce the memory and computational requirements associated with full 3D wave-equation modeling.  The goal is therefore not simply to replace the full wave equation with a less accurate approximation, but to identify where the computational structure of the full problem can be exploited without losing the wave-physics needed for quantitative reconstruction.  Together, these developments address two complementary requirements for 3D FWI in USCT: an accurate representation of the 3D acquisition physics and scalable methods for solving the resulting wave equation.
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/OneWayLU.png" title="OneWayLU" class="img-fluid rounded z-depth-1" %}
@@ -90,6 +88,8 @@ The connection between block LU factorization and one-way wave equations suggest
 <div class="caption" style="text-align: justify;">
     One-Way Wave Equations as the PDE-Equivalent of the LU Decomposition {% cite Ali2024OneWayDecomposition %}.  Phase-shift-plus-interpolation (PSPI) is an extension of the Fourier split-step method used to implement the one-way wave equations more accurately.  This numerical method could lead to a much more memory and computation efficient implementation of 3D FWI.
 </div>
+
+The connection between block LU factorization and one-way wave equations suggests a further approximation.  Instead of performing the full block factorization, the original 3D Helmholtz equation operator can be decomposed into a cascade of one-way wave equation operators.  Phase-shift-plus-interpolation (PSPI) provides an efficient way to implement these one-way operators in heterogeneous media.  By performing wave propagation primarily in the Fourier domain, the approach can substantially reduce the memory and computational requirements associated with full 3D wave-equation modeling.  The goal is therefore not simply to replace the full wave equation with a less accurate approximation, but to identify where the computational structure of the full problem can be exploited without losing the wave-physics needed for quantitative reconstruction.  Together, these developments address two complementary requirements for 3D FWI in USCT: an accurate representation of the 3D acquisition physics and scalable methods for solving the resulting wave equation.
 
 <b>
 
