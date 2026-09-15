@@ -18,7 +18,7 @@ related_publications: true
     </div>
 </div>
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2023StartingModelFWI.png" title="Ali2023StartingModelFWI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -42,7 +42,7 @@ related_publications: true
 
 
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/FrequencyDifferencingInSilico.png" title="FrequencyDifferencingInSilico" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -50,7 +50,7 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/FrequencyDifferencingInVitro.png" title="FrequencyDifferencingInVitro" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2025FrequencyDifferencing.png" title="Ali2025FrequencyDifferencing" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -58,7 +58,7 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/TranscranialFrequencyDifferencing.png" title="TranscranialFrequencyDifferencing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/Ali2024FrequencyDifferencing.png" title="Ali2024FrequencyDifferencing" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -69,7 +69,7 @@ related_publications: true
 
 
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/LowFrequencyExtrapolation.png" title="LowFrequencyExtrapolation" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -99,7 +99,7 @@ related_publications: true
 
 
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/NumericalBrainPhantom.png" title="NumericalBrainPhantom" class="img-fluid rounded z-depth-1" %}
     </div>
