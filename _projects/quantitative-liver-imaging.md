@@ -8,7 +8,7 @@ category: Clinical Applications
 related_publications: true
 ---
 
-### Early Liver Sound Speed Estimation Based on Layered Medium Model of the Abdomen
+### Early Liver Sound Speed Estimation Based on Layered Abdomen Model
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -43,7 +43,7 @@ Early work focused on estimating liver sound speed from pulse-echo ultrasound us
 
 <br>
 
-### Wave-Equation Migration Velocity Analysis (WEMVA) for Quantitative Liver Sound Speed
+### Quantitative Full-Wave Estimation of Liver Sound Speed
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -97,7 +97,7 @@ The layered-medium model provides a useful estimate of liver sound speed, but it
 
 <br>
 
-### Future Work: Extending WEMVA to Curvilinear Arrays for Human Abdominal Imaging
+### Future Work: Extending WEMVA to Curvilinear Human-Abdominal Imaging
 
 The initial WEMVA formulation was developed for linear arrays, whereas clinical abdominal ultrasound commonly uses curvilinear probes.  Extending WEMVA to these probes requires the wave-propagation model to account for the curved transducer geometry rather than treating the aperture as planar.  I have previously extended the angular spectrum method used in RTM to a polar coordinate system for curvilinear arrays {% cite Ali2022CurvilinearAngularSpectrumMethod %}.  The formulation propagates the transmitted and received wavefields in the polar geometry of the curved probe, while retaining the Fourier-domain efficiency of the angular spectrum method.  This provides the wave-propagation engine needed to apply RTM and WEMVA directly to curvilinear abdominal acquisitions.  The underlying curvilinear angular-spectrum formulation was validated against Field II simulations and demonstrated using in-vivo abdominal channel data.  Combining this propagation model with WEMVA would enable sound speed estimation and aberration correction using conventional curvilinear abdominal imaging probes.
 
