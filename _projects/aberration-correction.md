@@ -97,7 +97,7 @@ Estimating the sound-speed distribution and correcting aberration can also be pe
         {% include figure.liquid path="assets/img/publication_preview/Ali2026DifferentiableRTM.gif" title="Ali2026DifferentiableRTM" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     Full-Wave Sound Speed Estimation and Aberration Correction Using Image-Difference WEMVA {% cite Ali2026DifferentiableRTM %}.
 </div>
 
@@ -133,7 +133,7 @@ A second formulation uses a subsurface-offset extension of RTM, which introduces
         {% include figure.liquid path="assets/img/RatAbdomenL12-3v.gif" title="RatAbdomenL12-3v" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     Full-Wave Sound Speed Estimation and Aberration Correction Using Subsurface-Offset WEMVA {% cite Ali2026WEMVA %}.
 </div>
 
