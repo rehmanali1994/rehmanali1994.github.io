@@ -20,8 +20,8 @@ Accurate knowledge of tissue sound speed is fundamental to ultrasound imaging an
         {% include figure.liquid path="assets/img/LiverLayers.png" title="LiverLayers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
-    Early Layered Medium Model for Sound Speed Estimation.  During my PhD, I developed one of the first quantitative methods to estimate sound speed directly from pulse-echo data. The key idea is to use the beamforming sound speed to measure the average sound speed in the tissue.  In layered media, the profile of the average sound speed that best focuses the signal at each depth can be inverted to recover the local depth-wise profile {% cite Ali2021LayeredMedia %}.  This layered-medium approach has also been tried with plane waves {% cite Ali2020PlaneWaveSoS %} and with common midpoint gathers {% cite Ali2020CMP Brevett2022CMP %}.  This model was very useful for quantifying sound speed inside the liver to help diagnose fatty liver disease.  
+<div class="caption">
+    Early Layered Medium Model for Sound Speed Estimation.
 </div>
 
 During my PhD, I developed one of the first quantitative approaches for estimating sound speed directly from pulse-echo ultrasound data.  The key observation is that the sound speed used for beamforming contains information about the propagation speed of the tissue itself.  For a layered medium, the beamforming sound speed that produces the best focus at a given depth can be interpreted as an estimate of the average sound speed above that depth.  This turns the beamforming problem into an inverse problem: rather than treating the sound speed as a fixed imaging parameter, we can measure how the optimal focusing sound speed changes with depth and invert this relationship to recover a local, depth-wise sound-speed profile {% cite Ali2021LayeredMedia %}.  This provides a way to obtain quantitative sound-speed information using the same pulse-echo data that are already acquired for conventional ultrasound imaging.  The layered-medium formulation also provided a useful framework for investigating different acquisition strategies. We demonstrated related approaches using plane-wave imaging {% cite Ali2020PlaneWaveSoS %} and common-midpoint gathers {% cite Ali2020CMP Brevett2022CMP %}. 
@@ -35,11 +35,11 @@ The ability to estimate local sound speed from pulse-echo measurements also open
         {% include figure.liquid loading="eager" path="assets/img/RatLayers.png" title="RatLayers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
-    Example of Liver Imaging in Rats with Average and Local Sound Speed Estimates {% cite Ali2021LayeredMedia %}. (Top) First rat shown is a female obese Zucker rat with a steatosis grade of 1. The local sound speed in the liver was measured to be 1562.8 m/s. The sound speed measured in the excised liver sample was 1557 m/s. (Bottom) Second rat is a female obese Zucker rat with a steatosis grade of 3. The local sound speed in the liver was measured to be 1522.4 m/s. The sound speed measured in the excised liver sample was 1511 m/s.  See the complete study on liver steatosis in obese Zucker rats {% cite Telichko2022RatStudy %}.
+<div class="caption">
+    Example of Liver Imaging in Rats with Average and Local Sound Speed Estimates.
 </div>
 
-The figure above illustrates an example in which the estimated sound speed in the liver is compared with measurements obtained from excised tissue {% cite Ali2021LayeredMedia Telichko2022RatStudy %}.  In the first obese Zucker rat, corresponding to a lower steatosis grade, the local sound speed was estimated as 1562.8 m/s, compared with 1557 m/s measured from the excised liver.  In the second rat, with a higher steatosis grade, the estimated local sound speed was 1522.4 m/s compared with 1511 m/s ex vivo.  These measurements demonstrated that pulse-echo ultrasound could recover meaningful quantitative differences in liver sound speed in vivo.  More broadly, this work showed that sound-speed estimation could move beyond being merely an image-quality correction and become a potential source of tissue-specific quantitative information.
+The figure above illustrates an example in which the estimated sound speed in the liver is compared with measurements obtained from excised tissue {% cite Ali2021LayeredMedia Telichko2022RatStudy %}.  In the first obese Zucker rat, corresponding to a lower steatosis grade (Steatosis Grade 1), the local sound speed was estimated as 1562.8 m/s, compared with 1557 m/s measured from the excised liver.  In the second rat, with a higher steatosis grade (Steatosis Grade 3), the estimated local sound speed was 1522.4 m/s compared with 1511 m/s ex vivo.  These measurements demonstrated that pulse-echo ultrasound could recover meaningful quantitative differences in liver sound speed in vivo.  More broadly, this work showed that sound-speed estimation could move beyond being merely an image-quality correction and become a potential source of tissue-specific quantitative information.
 
 ### Generalizing Beyond Layered Media
 
@@ -67,7 +67,7 @@ The initial layered-medium model makes an important simplifying assumption: soun
         {% include figure.liquid path="assets/img/RayModeling.png" title="RayModeling" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     Ray-Based Modeling of Aberration Delays in Ultrasound Beamforming. 
 </div>
 
@@ -105,7 +105,7 @@ The ray-based approaches described above approximate ultrasound propagation usin
         {% include figure.liquid path="assets/img/publication_preview/Ali2026DifferentiableRTM.gif" title="Ali2026DifferentiableRTM" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     Full-Wave Sound Speed Estimation and Aberration Correction Using Image-Difference WEMVA {% cite Ali2026DifferentiableRTM %}.
 </div>
 
@@ -114,6 +114,8 @@ Wave-equation migration velocity analysis (WEMVA) provides such a framework.  In
 Therefore, this work {% cite Ali2026DifferentiableRTM %} provides a transition from ray-based sound-speed estimation to full-wave modeling, allowing the estimation process to account for the complete physics of ultrasound propagation rather than only travel-time differences.
 
 ### Subsurface-Offset WEMVA
+
+A second formulation uses a subsurface-offset extension of RTM, which introduces a lateral subsurface offset between the transmit and receive wavefields.  For an accurate sound-speed model, image energy should concentrate at zero subsurface offset; sound-speed errors instead produce energy distributed across nonzero subsurface offsets.  Therefore, WEMVA updates the sound-speed model by minimizing the extended image away from zero subsurface offset.  This formulation provides an alternative to comparing partial images and, importantly, avoids the angular-resolution tradeoff (Fourier uncertainty principle!) associated with common-midangle methods: the full angular diversity need to resolve an image point can be retained while aberrations associated with individual propagation paths can estimated from the subsurface-offset-extended images {% cite Ali2026WEMVA %}.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -131,8 +133,8 @@ Therefore, this work {% cite Ali2026DifferentiableRTM %} provides a transition f
         {% include figure.liquid path="assets/img/PhantomVSX4_2.gif" title="PhantomVSX4_2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption" style="text-align: justify;">
+<div class="caption">
     Full-Wave Sound Speed Estimation and Aberration Correction Using Subsurface-Offset WEMVA {% cite Ali2026WEMVA %}.
 </div>
 
-A second formulation uses a subsurface-offset extension of RTM, which introduces a lateral subsurface offset between the transmit and receive wavefields.  For an accurate sound-speed model, image energy should concentrate at zero subsurface offset; sound-speed errors instead produce energy distributed across nonzero subsurface offsets.  Therefore, WEMVA updates the sound-speed model by minimizing the extended image away from zero subsurface offset.  This formulation provides an alternative to comparing partial images and, importantly, avoids the angular-resolution tradeoff (Fourier uncertainty principle!) associated with common-midangle methods: the full angular diversity need to resolve an image point can be retained while aberrations associated with individual propagation paths can estimated from the subsurface-offset-extended images {% cite Ali2026WEMVA %}.
+<br>
