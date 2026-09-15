@@ -12,6 +12,8 @@ related_publications: true
 
 Ultrasound computed tomography (USCT) offers the possibility of imaging the entire brain using a surrounding array of transducers, providing quantitative information about the acoustic properties of tissue rather than relying only on conventional pulse-echo images. For transcranial imaging, however, the skull presents a major challenge. Its strong acoustic heterogeneity, attenuation, and mode conversion distort the ultrasound wavefield before it reaches the brain, making conventional ultrasound imaging assumptions inadequate.  The goal of this work is to develop full-wave methods that can account for these effects and enable whole-brain USCT through the skull. Such a system could provide rapid, portable imaging for acute neurological conditions, where access to conventional neuroimaging may be limited by cost, availability, or the need to transport critically ill patients.
 
+<br>
+
 ### Initial Phantom Experiments
 
 We first investigated whether transmission ultrasound could be used to image through a skull-like acoustic barrier.  These experiments used tissue-mimicking phantoms containing skull and brain-equivalent materials to evaluate the effects of the skull on ultrasound propagation and the ability of full-wave methods to recover the underlying structures.  The phantom experiments established the feasibility of reconstructing quantitative brain images despite the presence of the skull.  They also highlighted the central challenge for transcranial USCT: the skull introduces large travel-time errors and strong waveform distortion, so the success of full-waveform inversion depends critically on the quality of the starting model and the ability to account for the skull in the forward model.  These experiments provided the foundation for subsequent studies in more realistic brain models and biological specimens.
@@ -35,6 +37,8 @@ We first investigated whether transmission ultrasound could be used to image thr
 <div class="caption">
     Initial Phantom Experiments of Ultrasound Computed Tomography Through the Skull {% cite Mitcham2024ImagingStroke Marty2024ElasticBoneCharacterization %}.
 </div>
+
+<br>
 
 ### Whole-Brain Transcranial Imaging Using the Macaque Brain
 
@@ -62,6 +66,7 @@ We next moved from simplified phantoms to an ex-vivo macaque brain model to inve
     Whole-Brain and Transcranial Ultrasound Computed Tomography Based on Frequency Differencing and Full-Waveform Inversion {% cite Mitcham2025TranscranialUST Ali2025FrequencyDifferencing %}.
 </div>
 
+<br>
 
 ### Ex-Vivo Human Whole-Brain Imaging
 
@@ -81,6 +86,7 @@ The next step was to evaluate transcranial USCT using an ex-vivo human cadaver b
     Ex-Vivo Human Cadaver Whole-Brain and Transcranial Ultrasound Computed Tomography {% cite Owolabi2026LowFrequencyExtrapolation Marini2026TranscranialUST %}.
 </div>
 
+<br>
 
 ### [Cycle-Skipping Robust FWI](https://rehmanali1994.github.io/projects/FWI-cycle-skipping/) for Transcranial Imaging
 
@@ -97,6 +103,8 @@ The strong acoustic heterogeneity of the skull makes transcranial FWI particular
 <div class="caption" style="text-align: justify;">
     Frequency-Difference Full-Waveform Inversion (FD-FWI) and Adaptive Waveform Inversion (AWI) vs Conventional FWI in a Numerical Transcranial Imaging Phantom at 100 and 200 kHz {% cite Klaben2026JAX Singh2026TranscranialUST Mitcham2025TranscranialUST Ali2023HomogeneousStartingModelFWI%}.
 </div>
+
+<br>
 
 ### Toward Point-of-Care Whole-Brain Imaging
 
