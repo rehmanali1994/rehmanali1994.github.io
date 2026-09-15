@@ -108,3 +108,6 @@ related_publications: true
 <div class="caption" style="text-align: justify;">
     Subsurface-Offset WEMVA in the Abdomen of Obese Zucker Rats and a Healthy Human Subject {% cite Ali2026WEMVA %}.
 </div>
+
+
+<br>
